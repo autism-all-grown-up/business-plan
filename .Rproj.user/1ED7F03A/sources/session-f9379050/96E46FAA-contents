@@ -25,16 +25,16 @@ book:
   sidebar:
     tools:
       - icon: file-earmark-pdf
-        href: aagu_main_document.pdf
+        href: Autism-All-Grown-Up.pdf
       - icon: file-earmark-word
-        href: aagu_main_document.docx
+        href: Autism-All-Grown-Up.docx
     collapse-level: 4
 
 bibliography: aagu.bib
 
 format:
   html:
-    theme: litera
+    theme: quartz
     output-dir: docs
     number-sections: true
     toc: true

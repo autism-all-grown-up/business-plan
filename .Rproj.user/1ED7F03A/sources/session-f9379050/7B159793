@@ -3,7 +3,7 @@
     "path": "//wsl.localhost/Ubuntu/home/balter/aagu_main_document/mission.qmd",
     "project_path": "mission.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "2035727015",
     "contents": "",
     "dirty": false,
     "created": 1717458880483.0,
@@ -17,11 +17,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1717460807,
+    "lastKnownWriteTime": 1717521595,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1717460807194,
+    "last_content_update": 1717521595341,
     "read_only": false,
     "read_only_alternatives": []
 }

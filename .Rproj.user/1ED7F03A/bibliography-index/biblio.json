@@ -7612,6 +7612,27 @@
             "publisher": "https://www.psychologytoday.com/us/blog/women-with-autism-spectrum-disorder/202302/6-reasons-autistic-people-are-at-greater-risk-of",
             "title": "6 Reasons Autistic People Are at Greater Risk of Suicide  Psychology Today",
             "type": ""
+        },
+        {
+            "URL": "https://autisticadvocacy.org/about-asan/about-autism/",
+            "author": [
+                {
+                    "family": "ASAN",
+                    "given": "About Autism"
+                }
+            ],
+            "container-title": "https://autisticadvocacy.org/",
+            "id": "asan2009",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        1
+                    ]
+                ]
+            },
+            "title": "About autism - autistic self advocacy network",
+            "type": ""
         }
     ],
     "project_biblios": [
