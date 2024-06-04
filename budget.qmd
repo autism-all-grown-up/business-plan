@@ -1,0 +1,96 @@
+# Budget {#budget}
+
+Autism All Grown Up will place a strong emphasis on hiring autistic and neurodiverse Oregon adults and paying them a market wage. The wages will be at the low end during the initial Seed and Sprout phases and increase during the later phases. The hourly rates shown represent full compensation on a 1099 and do not include benefits. We will make necessary adjustments when we are able to provide benefits as well.
+
+We have created our budget estimate based on the minimum staffing we believe can meet our performance goals combined with market-rate salary estimates from ZipRecruiter ([[https://www.ziprecruiter.com/Salaries]{.underline}](https://www.ziprecruiter.com/Salaries)) for approximate job titles in the Portland, OR area (see [[Appendix 2: Representative Salaries]{.underline}](#appendix-2-representative-salaries)). We project a budget of approximately \$150,000 for the first six months (26 weeks) of operation.
+
+## 
+
+## **Seed**
+
+### Staffing
+
+| **Res ponsibility**      | **FTE**  | **Description**                                                                                                                                                                                       |
+|:-------------------------|:---------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Organizing and Directing | 0.75     | Implement business systems--payrol, formal job descriptions, insurance, etc. Hold regular meetings with select partner organizations and individuals. Solicit and apply for funding for Sprout phase. |
+| Coworking space manager  | 0.25     | Research how coworking spaces run. Create a budget and game plan for initial set-up. Begin planning marketing and promotion.                                                                          |
+| Research support         | 0.25     | Collect and organize information. Writing.                                                                                                                                                            |
+| Web Development          | 0.25     | Design and build website.                                                                                                                                                                             |
+| **Total**                | **1.50** |                                                                                                                                                                                                       |
+
+### Budget
+
+| **Respo nsibility**      | **FTE** | **Rate** | **Weekly Total** | **Overhead (10%)** |
+|:-------------------------|:--------|:---------|------------------|:-------------------|
+| Organizing and Directing | 0.75    | \$40.00  | \$1,200.00       | \$120.00           |
+| Coworking space manager  | 0.25    | \$30.00  | \$300.00         | \$30.00            |
+| Research support         | 0.25    | \$30.00  | \$300.00         | \$30.00            |
+| Web Development          | 0.25    | \$30.00  | \$300.00         | \$30.00            |
+| Subtotal per week        |         |          | \$2,100.00       | \$210.00           |
+| **Total per week**       |         |          | **\$ 2,310.00**  |                    |
+
+## 
+
+## 
+
+## **Sprout**
+
+### **Staffing**
+
+| **R esponsibility**      | **FTE**  | **Description**                                                                                                                                                                                                  |
+|:-------------------------|:---------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Organizing and Directing | 0.75     | Complete current information product projects. Investigate access gaps. Locate resources. Continue building relationships. Oversee and participate in research on community resources and funding opportunities. |
+| Data engineering         | 0.50     | Create databases. Research portal design.                                                                                                                                                                        |
+| Coworking space manager  | 0.50     | Research how coworking spaces run. Solicit community feedback. Run trails.                                                                                                                                       |
+| Research support         | 0.50     | Collect and organize information. Writing.                                                                                                                                                                       |
+| Web Development          | 0.50     | Design and build website.                                                                                                                                                                                        |
+| **Total**                | **2.75** |                                                                                                                                                                                                                  |
+
+### **Budget**
+
+| **Respo nsibility**      | **FTE** | **Rate** | **Weekly Total** | **Overhead (10%)** |
+|:-------------------------|:--------|:---------|:-----------------|:-------------------|
+| Organizing and Directing | 0.75    | \$50.00  | \$1,500.00       | \$150.00           |
+| Data engineering         | 0.50    | \$45.00  | \$900.00         | \$90.00            |
+| Coworking space manager  | 0.50    | \$30.00  | \$600.00         | \$60.00            |
+| Research support         | 0.50    | \$30.00  | \$600.00         | \$60.00            |
+| Web Development          | 0.50    | \$30.00  | \$600.00         | \$60.00            |
+| Subtotal per week        |         |          | \$4,200.00       | \$420.00           |
+| Total per week           |         |          | \$4,620.00       |                    |
+| **Total for 8 weeks**    |         |          | **\$3 3,600.00** |                    |
+
+### 
+
+## Grow
+
+### **Staffing**
+
+| **Res ponsibility**       | **FTE**  | **Description**                                                                                                                                                                       |
+|:--------------------------|:---------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Organizing and Directing  | 1.00     | Seek out partners and funding opportunities. Work with stakeholders to define contract requirements. Direct grant writing. Meet regularly with partner organizations and individuals. |
+| Data engineering          | 0.30     | Maintain databases and portal. Assist with analysis and reporting.                                                                                                                    |
+| Jr. Data management       | 0.20     | Collect data. Enter data. Basic reporting.                                                                                                                                            |
+| Research and analysis     | 0.50     | Perform analysis and generate reports. Lead grant-writing efforts. Be responsible for obtaining necessary approvals, meeting all grant requirements, and submitting on time.          |
+| Research support (Jr.)    | 0.50     | Locate resources. Collect and organize information. Conduct surveys.                                                                                                                  |
+| Web Development           | 0.25     | Maintain website.                                                                                                                                                                     |
+| Coworking space manager   | 1.00     | Determine best practices. Maintain the physical space. Set and enforce policies.                                                                                                      |
+| Coworking space attendant | 0.50     | Oversee operation.                                                                                                                                                                    |
+| **Total**                 | **4.25** |                                                                                                                                                                                       |
+
+### **Budget**
+
+| **Respo nsibility**       | **FTE** | **Rate** | **Weekly Total**  | **Overhead (10%)** |
+|:--------------------------|:--------|:---------|:------------------|:-------------------|
+| Organizing and Directing  | 0.75    | \$65.00  | \$1,950.00        | \$195.00           |
+| Data engineering          | 0.30    | \$45.00  | \$540.00          | \$54.00            |
+| Jr. Data management       | 0.20    | \$30.00  | \$240.00          | \$24.00            |
+| Research and analysis     | 0.50    | \$45.00  | \$900.00          | \$90.00            |
+| Research support (Jr.)    | 0.50    | \$30.00  | \$600.00          | \$60.00            |
+| Web Development           | 0.25    | \$45.00  | \$450.00          | \$45.00            |
+| Coworking space manager   | 0.75    | \$40.00  | \$1,200.00        | \$120.00           |
+| Coworking space attendant | 0.50    | \$25.00  | \$500.00          | \$50.00            |
+| Subtotal per week         |         |          | \$5,880.00        | \$588.00           |
+| Total per week            |         |          | \$6,468.00        |                    |
+| **Total for 18 weeks**    |         |          | **\$11 6,424.00** |                    |
+
+# 

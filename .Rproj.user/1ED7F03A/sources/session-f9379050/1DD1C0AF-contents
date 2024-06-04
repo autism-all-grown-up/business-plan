@@ -10,27 +10,19 @@ book:
     - index.qmd
     - mission.qmd
     - executive_summary.qmd
-    - lost_generations.qmd
+    - autism_2024.qmd
+    - the_lost_generations.qmd
+    - oregon.qmd
     - autism_all_grown_up.qmd
     - funding.qmd
     - budget.qmd
   appendices:
-    - specific_issues.qmd
     - glossary.qmd
     - representitive_salaries.qmd
     - potential_funders.qmd
     - neurodiversity_and_neurodivergence.qmd
-  references: references.qmd
 
-  sidebar:
-    tools:
-      - icon: file-earmark-pdf
-        href: aagu_main_document.pdf
-      - icon: file-earmark-word
-        href: aagu_main_document.docx
-    collapse-level: 4
-
-bibliography: aagu.bib
+bibliography: aagu/aagu.bib
 
 format:
   html:
@@ -42,13 +34,7 @@ format:
   pdf:
     documentclass: scrreprt
     number-sections: true
-    number-depth: 1
-    toc-title: "Contents"
-    toc: true
-    toc-depth: 2
-  docx:
-    number-sections: true
-    number-depth: 1
+    number-depth: 2
     toc-title: "Contents"
     toc: true
     toc-depth: 2

@@ -12,9 +12,23 @@ book:
     - executive_summary.qmd
     - lost_generations.qmd
     - autism_all_grown_up.qmd
+    - funding.qmd
+    - budget.qmd
   appendices:
-    - sidebars.qmd
+    - specific_issues.qmd
+    - glossary.qmd
+    - representitive_salaries.qmd
+    - potential_funders.qmd
+    - neurodiversity_and_neurodivergence.qmd
   references: references.qmd
+
+  sidebar:
+    tools:
+      - icon: file-earmark-pdf
+        href: aagu_main_document.pdf
+      - icon: file-earmark-word
+        href: aagu_main_document.docx
+    collapse-level: 4
 
 bibliography: aagu.bib
 

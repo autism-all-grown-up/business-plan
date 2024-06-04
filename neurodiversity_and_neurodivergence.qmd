@@ -1,0 +1,49 @@
+# Appendix 4: Neurodiversity and Neurodivergence
+
+Many people find [[this article]{.underline}](https://neuroqueer.com/neurodiversity-terms-and-definitions/) by Dr. Nick Walker to be the definitive overview of these terms and how they are used and misused. We put together the summary below with the help of [[chatGPT]{.underline}](https://chatgpt.com/share/e60ffdec-5945-45d2-9a14-2abe39cf4f8d):
+
+## Neurodiversity (concept)
+
+**Definition:** Neurodiversity is the idea that neurological differences, like autism, ADHD, dyslexia, and others, are natural variations of the human genome. This concept emphasizes that these differences should be recognized and respected as a part of human diversity.
+
+**Historical and Social Context:** The term "neurodiversity" was coined in the late 1990s by sociologist Judy Singer. It arose from the disability rights movement and the autistic rights movement, which sought to challenge the medical model of disability that views neurological differences as deficits or disorders to be cured. Instead, neurodiversity advocates promote acceptance and understanding, emphasizing the strengths and contributions of neurodivergent individuals.
+
+## Neurodiversity (paradigm)
+
+**Definition:** The neurodiversity paradigm is a framework that challenges traditional views of neurological differences. It posits that these differences should be seen as normal variations rather than abnormalities or deficits. This paradigm promotes the idea that society should adapt to accommodate these differences rather than forcing individuals to conform to a neurotypical standard.
+
+**Historical and Social Context:** This paradigm shift gained momentum in the early 2000s, aligning with broader social movements advocating for civil rights and inclusion. It has influenced fields like education, employment, and healthcare, encouraging practices that support diverse ways of thinking and learning.
+
+## Neurodiversity (movement)
+
+**Definition:** The neurodiversity movement is a social movement that advocates for the rights and inclusion of neurodivergent individuals. It seeks to promote understanding, acceptance, and accommodation of neurological differences. The movement has worked to reframe autism as a minority identity rather than a disorder.
+
+**Historical and Social Context:** Emerging in the late 20th century, the neurodiversity movement has been driven by self-advocates and allies. It challenges stigmatizing narratives and calls for systemic changes in how neurodivergent individuals are treated in society. This movement has led to increased visibility and advocacy for policies that support neurodiversity in schools, workplaces, and communities.
+
+## Neurodivergence
+
+**Definition:** Neurodivergence refers to the state of having a brain that functions differently from the typical standards of society. It is an umbrella term that includes various neurological conditions like autism, ADHD, dyslexia, and more.
+
+**Historical and Social Context:** The term "neurodivergence" gained prominence alongside the neurodiversity movement. It helps to create a more inclusive language that recognizes the spectrum of neurological differences without implying pathology. This shift in terminology supports a more positive and accepting view of diverse cognitive profiles.
+
+## Neurodivergent
+
+**Definition:** Neurodivergent describes individuals whose neurological development and functioning are atypical. This term is used to identify people who have conditions like autism, ADHD, dyslexia, etc.
+
+**Historical and Social Context:** The adoption of the term "neurodivergent" reflects a growing acceptance of diversity in neurological functioning. It emphasizes identity and self-advocacy, allowing individuals to claim their differences as part of who they are rather than as something to be fixed or hidden.
+
+## Neurotypical
+
+**Definition:** Neurotypical refers to individuals whose neurological development and functioning are considered standard or typical by societal norms. It is often used in contrast to neurodivergent.
+
+**Historical and Social Context:** The term "neurotypical" originated within the neurodiversity community as a way to distinguish between those who conform to societal norms of neurological functioning and those who do not. It highlights that "typical" neurological functioning is not the only valid or acceptable way of being, promoting a more inclusive view of human diversity.
+
+### **References**
+
+> 1\. Singer, J. (1998). **Odd People In: The Birth of Community Amongst People on the 'Autistic Spectrum'**. Honours Thesis, University of Technology, Sydney.
+>
+> 2\. Silberman, S. (2015). **NeuroTribes: The Legacy of Autism and the Future of Neurodiversity**. Avery.
+>
+> 3\. Armstrong, T. (2010). **Neurodiversity: Discovering the Extraordinary Gifts of Autism, ADHD, Dyslexia, and Other Brain Differences**. Da Capo Lifelong Books.
+>
+> 4\. Kapp, S. K., et al. (2013). **Deficit, Difference, or Both? Autism and Neurodiversity**. Developmental Psychology, 49(1), 59--71.
