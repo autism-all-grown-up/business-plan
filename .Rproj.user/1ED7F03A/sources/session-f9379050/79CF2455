@@ -1,0 +1,31 @@
+{
+    "id": "79CF2455",
+    "path": "//wsl.localhost/Ubuntu/home/balter/aagu_main_document/budget.qmd",
+    "project_path": "budget.qmd",
+    "type": "quarto_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1717556733821.0,
+    "source_on_save": false,
+    "relative_order": 15,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualModeLocation": "698:0",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "2,79",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1717556820,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1717556821082,
+    "read_only": false,
+    "read_only_alternatives": []
+}

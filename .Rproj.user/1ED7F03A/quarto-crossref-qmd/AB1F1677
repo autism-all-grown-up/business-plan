@@ -1,0 +1,18 @@
+{
+    "entries": [
+        {
+            "file": "lost_generations.qmd",
+            "type": "sec",
+            "id": "autism2024_lost_gen",
+            "suffix": "",
+            "title": "Lost Generations of Autistic Adults"
+        },
+        {
+            "file": "lost_generations.qmd",
+            "type": "sec",
+            "id": "autism2024",
+            "suffix": "",
+            "title": "Autism in 2024"
+        }
+    ]
+}

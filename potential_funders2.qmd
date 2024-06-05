@@ -1,0 +1,31 @@
+# Potential Funders {#appendix-potential-funders}
+
+```{r, include=F}
+library(tidyverse)
+library(googlesheets4)
+library(googledrive)
+library(kableExtra)
+options(gargle_oauth_email = "ariel%arielbalter.com@gtempaccount.com")
+gs4_deauth()
+# drive_auth(email = "ariel%arielbalter.com@gtempaccount.com")
+# URL of the Google Sheet
+sheet_url = "https://docs.google.com/spreadsheets/d/1tDWDwJANCWrrx1dn4g40qG0ejlE5WFwfOb9HnWsCmto/edit?usp=sharing"
+
+# Get the sheet names
+headings = sheet_names(sheet_url)
+
+```
+
+
+```{r, echo=F, results="asis", error=F, warning=F}
+
+for (heading in headings) {
+  cat("\n\n##", heading, "\n\n")
+  data = suppressMessages(suppressWarnings(read_sheet(sheet_url, sheet = heading)))
+  data %>%
+    kable(caption = heading) %>%
+    kable_styling("striped", full_width = F) %>%
+    print()
+}
+
+```

@@ -1,9 +1,9 @@
 {
     "id": "910CC3A8",
-    "path": "//wsl.localhost/Ubuntu/home/balter/aagu_main_document/glossary.qmd",
-    "project_path": "glossary.qmd",
+    "path": "//wsl.localhost/Ubuntu/home/balter/aagu_main_document/glossary2.qmd",
+    "project_path": "glossary2.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1530085866",
     "contents": "",
     "dirty": false,
     "created": 1717532524105.0,
@@ -17,15 +17,15 @@
         "docOutlineVisible": "1",
         "rmdVisualModeLocation": "2:0",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "2,591",
+        "cursorPosition": "8,11",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1717532551,
+    "lastKnownWriteTime": 1717606408,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1717532551330,
+    "last_content_update": 1717606408791,
     "read_only": false,
     "read_only_alternatives": []
 }

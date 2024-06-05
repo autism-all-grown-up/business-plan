@@ -16,9 +16,9 @@ book:
     - budget.qmd
   appendices:
     - specific_issues.qmd
-    - glossary.qmd
+    - glossary2.qmd
     - representitive_salaries.qmd
-    - potential_funders.qmd
+    - potential_funders2.qmd
     - neurodiversity_and_neurodivergence.qmd
   references: references.qmd
 
@@ -34,7 +34,7 @@ bibliography: aagu.bib
 
 format:
   html:
-    theme: quartz
+    theme: solar
     output-dir: docs
     number-sections: true
     toc: true
@@ -46,10 +46,12 @@ format:
     toc-title: "Contents"
     toc: true
     toc-depth: 2
+    prefer-html: true
   docx:
     number-sections: true
     number-depth: 1
     toc-title: "Contents"
+    prefer-html: true
     toc: true
     toc-depth: 2
 

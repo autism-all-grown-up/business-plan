@@ -1,0 +1,39 @@
+{
+    "entries": [
+        {
+            "file": "autism_all_grown_up.qmd",
+            "type": "sec",
+            "id": "aagu_goals",
+            "suffix": "",
+            "title": "Goals"
+        },
+        {
+            "file": "autism_all_grown_up.qmd",
+            "type": "sec",
+            "id": "aagu_origin",
+            "suffix": "",
+            "title": "Origin"
+        },
+        {
+            "file": "autism_all_grown_up.qmd",
+            "type": "sec",
+            "id": "aagu_started",
+            "suffix": "",
+            "title": "What We Have Started"
+        },
+        {
+            "file": "autism_all_grown_up.qmd",
+            "type": "sec",
+            "id": "aagu_growth_plan",
+            "suffix": "",
+            "title": "Growth Plan"
+        },
+        {
+            "file": "autism_all_grown_up.qmd",
+            "type": "sec",
+            "id": "aagu",
+            "suffix": "",
+            "title": "Autism All Grown Up (AAGU): A Nexus for Change"
+        }
+    ]
+}
