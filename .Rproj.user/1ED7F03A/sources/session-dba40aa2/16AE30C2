@@ -1,0 +1,27 @@
+{
+    "id": "16AE30C2",
+    "path": "//wsl.localhost/Ubuntu/home/balter/aagu_main_document/ziprecruiter_test.R",
+    "project_path": "ziprecruiter_test.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1717697002591.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "47,36",
+        "scrollLine": "9"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1717697116,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1717700191709,
+    "read_only": false,
+    "read_only_alternatives": []
+}
