@@ -4,9 +4,9 @@
 library(tidyverse)
 source("utilities.R")
 glossary = read_csv("glossary.csv")
-glossary = 
-  glossary %>% 
-  rowwise() %>% mutate(Definition = replace_urls_with_md(Definition))
+# glossary = 
+#   glossary %>% 
+#   rowwise() %>% mutate(Definition = replace_urls_with_md(Definition))
 ```
 
 

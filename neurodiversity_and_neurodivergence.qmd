@@ -1,4 +1,4 @@
-# Neurodiversity and Neurodivergence {#appendix-neurodiversity}
+# Neurodiversity and Neurodivergence {#sec-neurodiversity}
 
 Many people find [[this article]{.underline}](https://neuroqueer.com/neurodiversity-terms-and-definitions/) by Dr. Nick Walker to be the definitive overview of these terms and how they are used and misused. We put together the summary below with the help of [[chatGPT]{.underline}](https://chatgpt.com/share/e60ffdec-5945-45d2-9a14-2abe39cf4f8d):
 

@@ -1,4 +1,4 @@
-# Representative Salaries {#appendix-representative-salaries}
+# Representative Salaries {#sec-representative-salaries}
 
 +------------------------+---------------+-------------+------------+-------------+
 | Data Analyst           |               |             |            |             |

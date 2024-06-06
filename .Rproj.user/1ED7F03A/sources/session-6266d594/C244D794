@@ -1,0 +1,27 @@
+{
+    "id": "C244D794",
+    "path": "//wsl.localhost/Ubuntu/home/balter/aagu_main_document/print_fte_table.R",
+    "project_path": "print_fte_table.R",
+    "type": "r_source",
+    "hash": "2751406876",
+    "contents": "",
+    "dirty": false,
+    "created": 1717691798784.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "29,14",
+        "scrollLine": "19"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1717691809,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1717691809698,
+    "read_only": false,
+    "read_only_alternatives": []
+}

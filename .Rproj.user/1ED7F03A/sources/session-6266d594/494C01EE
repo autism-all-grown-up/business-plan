@@ -1,0 +1,27 @@
+{
+    "id": "494C01EE",
+    "path": "//wsl.localhost/Ubuntu/home/balter/aagu_main_document/print_budget_table.R",
+    "project_path": "print_budget_table.R",
+    "type": "r_source",
+    "hash": "1898690426",
+    "contents": "",
+    "dirty": false,
+    "created": 1717691767533.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "65,9",
+        "scrollLine": "43"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1717691793,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1717691793106,
+    "read_only": false,
+    "read_only_alternatives": []
+}

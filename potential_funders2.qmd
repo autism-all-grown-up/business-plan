@@ -1,4 +1,4 @@
-# Potential Funders {#appendix-potential-funders}
+# Potential Funders {#sec-potential-funders}
 
 ```{r, include=F}
 library(tidyverse)
