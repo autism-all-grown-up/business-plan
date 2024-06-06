@@ -1,0 +1,557 @@
+"0","#| warning: false"
+"0","#| message: false"
+"0","#| echo: false"
+"0","#| output: asis"
+"0",""
+"0","for (heading in headings) {"
+"0","  cat(""\n\n##"", heading, ""\n\n"")"
+"0","  "
+"0","  data = read.xlsx(funders_file, sheet = heading)"
+"0","  "
+"0","  entities = "
+"0","    data$Entity %>% "
+"0","    unique() %>% "
+"0","    sort()"
+"0","  "
+"0","  for (entity in entities)"
+"0","  {"
+"0","    cat(""\n\n###"", entity, ""\n\n"")"
+"0","    data %>% "
+"0","      filter(Entity == !!entity) %>% "
+"0","      str_glue_data(""- [{Product}]({Links})\n\n"") %>% "
+"0","      cat()"
+"0","  }"
+"0","  "
+"0","}"
+"1","
+
+##"
+"1"," "
+"1","Healthcare"
+"1"," "
+"1","
+
+"
+"1","
+
+###"
+"1"," "
+"1","Adventist"
+"1"," "
+"1","
+
+"
+"1","- [Sponsorship Request](https://hipaa-submit.jotform.com/221594871753061)
+"
+"1"," "
+"1","- [Community Benefit](https://adventisthealth.org/portland/about-us/community-benefit/)
+"
+"1","
+
+###"
+"1"," "
+"1","Cambia"
+"1"," "
+"1","
+
+"
+"1","- [Healthy and Connected Aging](https://www.cambiahealthfoundation.org/focus-areas/healthy-and-connected-aging.html)
+"
+"1"," "
+"1","- [Sponsorship](https://www.cambiahealthfoundation.org/applicant-resources/current-funding-opportunities.html)
+"
+"1","
+
+###"
+"1"," "
+"1","CareOregon"
+"1"," "
+"1","
+
+"
+"1","- [Community Giving grants and sponsorships](https://www.careoregon.org/community/community-giving-grants-for-nonprofit-organizations)
+"
+"1"," "
+"1","- [HRSN Services](request.social.determinants@careoregon.org,)
+"
+"1","
+
+###"
+"1"," "
+"1","Central Oregon Health Council"
+"1"," "
+"1","
+
+"
+"1","- [Standard Grants](https://cohealthcouncil.org/standard-grants/)
+"
+"1","
+
+###"
+"1"," "
+"1","Health Share"
+"1"," "
+"1","
+
+"
+"1","- [Sponsorship](https://www.healthshareoregon.org/about/sponsorship)
+"
+"1"," "
+"1","- [HRSN Services](https://www.healthshareoregon.org/community-partners/hrsn)
+"
+"1"," "
+"1","- [HRSN Services](https://health-share-or.portals.zenginehq.com/program/community-capacity-building/info)
+"
+"1","
+
+###"
+"1"," "
+"1","Kaiser"
+"1"," "
+"1","
+
+"
+"1","- [HRSN Services](Laura.J.Howard@kp.org)
+"
+"1"," "
+"1","- [HRSN Services](https://communityhealth-midatlantic.kaiserpermanente.org/improving-communities/grantmaking/)
+"
+"1"," "
+"1","- [HRSN Services](https://communityhealth-midatlantic.kaiserpermanente.org/wp-content/uploads/2024/02/LOI-Submitter-Help-Document_508.pdf)
+"
+"1"," "
+"1","- [HRSN Services](MedicaidHRSflexfunds@kp.org)
+"
+"1"," "
+"1","- [Community Benefit](community.benefit@kp.org)
+"
+"1","
+
+###"
+"1"," "
+"1","Legacy"
+"1"," "
+"1","
+
+"
+"1","- [Community Health Grant](https://www.legacyhealth.org/Giving-and-Support/community-engagement/Community-Grants)
+"
+"1"," "
+"1","- [Legacy Research Institute](https://www.legacyhealth.org/For-Health-Professionals/legacy-research-institute/services/grants)
+"
+"1"," "
+"1","- [Sponsorship](https://www.legacyhealth.org/Giving-and-Support/community-engagement/Sponsorships)
+"
+"1"," "
+"1","- [HRSN Services](HealthRelatedServices@pacificsource.com)
+"
+"1","
+
+###"
+"1"," "
+"1","Ochin"
+"1"," "
+"1","
+
+"
+"1","- [NA](NA)
+"
+"1","
+
+###"
+"1"," "
+"1","OHSU"
+"1"," "
+"1","
+
+"
+"1","- [Community Partnership Program](https://www.ohsu.edu/knight-cancer-institute/community-partnership-program-grants)
+"
+"1"," "
+"1","- [Community Partnership Program](https://www.ohsu.edu/knight-cancer-institute/how-apply-community-grant)
+"
+"1"," "
+"1","- [Community Partnership Program](https://www.ohsu.edu/sites/default/files/2024-01/CPP_RFP_2024.1_FINAL_lowres_0.pdf)
+"
+"1"," "
+"1","- [Tiered Grants](https://www.ohsu.edu/knight-cancer-institute/tiered-grants)
+"
+"1"," "
+"1","- [HRSN Services](https://www.ohsu.edu/health-services)
+"
+"1"," "
+"1","- [Rural Population Health Incubator Program ](https://www.ohsu.edu/oregon-office-of-rural-health/rural-population-health-incubator-program)
+"
+"1","
+
+###"
+"1"," "
+"1","Pacific Source"
+"1"," "
+"1","
+
+"
+"1","- [Community Health Excellence Grants](https://pacificsource.com/sites/default/files/2023-02/PRV510_0123_CHE%20Flier.pdf)
+"
+"1"," "
+"1","- [Community Capacity-Building Funding for HRSN services](https://pacificsource.com/article/community-capacity-building-funding-hrsn-services)
+"
+"1"," "
+"1","- [Community Health Excellence Grants](https://www.ruralhealthinfo.org/funding/5469)
+"
+"1"," "
+"1","- [All](https://pacificsource.com/sites/default/files/2023-08/CLB1330_0823_PacificSource%20Funding%20Navigation%20Guide.pdf)
+"
+"1"," "
+"1","- [PacificSource Foundation for Health Improvement](https://pacificsource.com/community/foundation?utm_source=pdf&utm_medium=flier&utm_campaign=FundingGuide&utm_id=CLB1330)
+"
+"1"," "
+"1","- [Healthy Communities Program](http://www.grantinterface.com/Home/Logon)
+"
+"1","
+
+###"
+"1"," "
+"1","Providence"
+"1"," "
+"1","
+
+"
+"1","- [Community Grants/Donations](https://www.providence.org/locations/wa/providence-regional-medical-center-everett/donate-and-volunteer/community-sponsorships)
+"
+"1"," "
+"1","- [Sponsorship](https://webportalapp.com/sp/login/prmce-sponsor-application)
+"
+"1"," "
+"1","- [HRSN Services](HRSNBenefit@Providence.org)
+"
+"1","
+
+###"
+"1"," "
+"1","St Charles Health System"
+"1"," "
+"1","
+
+"
+"1","- [Community Benefit Grants and Sponsorships](https://www.stcharleshealthcare.org/community-health/community-benefit-grants-and-sponsorships)
+"
+"1","
+
+###"
+"1"," "
+"1","Trillium"
+"1"," "
+"1","
+
+"
+"1","- [Community Benefit Initiatives](https://www.prnewswire.com/news-releases/trillium-community-health-plan-announces-request-for-applications-for-2023-small-grants-for-community-benefit-initiatives-301845411.html)
+"
+"1"," "
+"1","- [Community Benefit Initiatives](https://www.trilliumohp.com/supporting-oregon-communities/community-benefit-initiatives.html)
+"
+"1"," "
+"1","- [Community Capacity Building Funding](https://www.trilliumohp.com/supporting-oregon-communities/health-related-social-needs/community-capacity-building-funding.html)
+"
+"1","
+
+##"
+"1"," "
+"1","Foundatons and Trusts"
+"1"," "
+"1","
+
+"
+"1","
+
+###"
+"1"," "
+"1","Anna May Family Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Grant](http://www.annamay.org/)
+"
+"1","
+
+###"
+"1"," "
+"1","Autzen Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Grant](https://www.autzenfoundation.org/deadlines)
+"
+"1","
+
+###"
+"1"," "
+"1","Ben B Cheney Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Grant](https://www.benbcheneyfoundation.org/)
+"
+"1","
+
+###"
+"1"," "
+"1","Benton Community Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Community Grants](https://bcfgives.org/wp-content/uploads/2024/02/2023-Full-Grant-History.pdf)
+"
+"1","
+
+###"
+"1"," "
+"1","Carpenter Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Grant](http://carpenter-foundation.org/)
+"
+"1","
+
+###"
+"1"," "
+"1","Chambers Family Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Grant](https://www.chambersfamilyfoundation.com/submissions)
+"
+"1","
+
+###"
+"1"," "
+"1","Collins Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Responsive Grant](https://www.collinsfoundation.org/responsive-grantmaking-submission-guidelines)
+"
+"1"," "
+"1","- [Responsive Grant](https://www.collinsfoundation.org/responsive-grantmaking-submission-guidelines/frequently-asked-questions)
+"
+"1","
+
+###"
+"1"," "
+"1","Doug Flutie Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Autism Community Impact Grant](https://flutiefoundation.org/helping-communities/autism-community-impact-grant/)
+"
+"1"," "
+"1","- [Flutie Fellows – Career and Life Goal Support](https://flutiefoundation.org/helping-individuals/flutie-fellows-career-and-life-goal-support/)
+"
+"1"," "
+"1","- [Financial Relief for Families](https://flutiefoundation.org/helping-families/direct-financial-support/)
+"
+"1","
+
+###"
+"1"," "
+"1","Foster Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Grant](http://www.thefosterfoundation.org/Home.htm)
+"
+"1","
+
+###"
+"1"," "
+"1","Gordon Elwood Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Grant](https://www.gordonelwoodfoundation.org/index)
+"
+"1","
+
+###"
+"1"," "
+"1","M J Murdock Charitable Trust"
+"1"," "
+"1","
+
+"
+"1","- [STRATEGIC GRANT](https://murdocktrust.org/grant-application-process/)
+"
+"1","
+
+###"
+"1"," "
+"1","Maybelle Clark  Macdonald Fund"
+"1"," "
+"1","
+
+"
+"1","- [Grant](https://mcmfundgiving.org/grants/)
+"
+"1","
+
+###"
+"1"," "
+"1","Meyer Memorial Trust"
+"1"," "
+"1","
+
+"
+"1","- [Grant](https://mmt.org/)
+"
+"1","
+
+###"
+"1"," "
+"1","Oregon Community Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Grant](https://oregoncf.org/grants-and-scholarships/grants/)
+"
+"1","
+
+###"
+"1"," "
+"1","Reser Family Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Responsive Grant Programs](https://thereserfamilyfoundation.org/apply-for-a-grant/)
+"
+"1","
+
+###"
+"1"," "
+"1","Robert Wood Johnson Foundation"
+"1"," "
+"1","
+
+"
+"1","- [Multiple](https://www.rwjf.org/en/grants.html)
+"
+"1"," "
+"1","- [Multiple](https://www.rwjf.org/en/grants/active-funding-opportunities.html?o=1&us=1)
+"
+"1","
+
+###"
+"1"," "
+"1","Weyerhouser"
+"1"," "
+"1","
+
+"
+"1","- [Giving Fund](https://www.weyerhaeuser.com/company/values/citizenship/giving-fund/)
+"
+"1","
+
+##"
+"1"," "
+"1","State"
+"1"," "
+"1","
+
+"
+"1","
+
+###"
+"1"," "
+"1","Oregon Health Authority"
+"1"," "
+"1","
+
+"
+"1","- [Block Grants](https://www.oregon.gov/oha/hsd/amhpac/pages/block-grants.aspx)
+"
+"1"," "
+"1","- [Community Capacity Building Funds](https://www.oregon.gov/oha/hsd/medicaid-policy/pages/ccbf.aspx)
+"
+"1"," "
+"1","- [Community Capacity Building Funds](https://content.govdelivery.com/accounts/ORHA/bulletins/38e15e8)
+"
+"1"," "
+"1","- [SHARE Initiative](https://www.oregon.gov/oha/hpa/dsi-tc/pages/share.aspx)
+"
+"1"," "
+"1","- [PUBLIC HEALTH EQUITY](https://www.oregon.gov/oha/PH/ABOUT/MODCET%20CBO%20Documents/PH%20Equity%20CBO%20Fiscal%20Guidance%20-%20AY25%20%20DRAFT-%2002.28.24.pdf)
+"
+"1"," "
+"1","- [PUBLIC HEALTH EQUITY](https://content.govdelivery.com/accounts/ORHA/bulletins/37611cc)
+"
+"1"," "
+"1","- [GRANT](https://www.oregon.gov/oha/ph/healthypeoplefamilies/youth/healthschool/schoolbasedhealthcenters/pages/mh-expansion-grant.aspx)
+"
+"1"," "
+"1","- [HTO CHIP Project Grants](https://www.oregon.gov/oha/PH/ABOUT/Documents/HTO%20CHIP%202024%20FAQ.pdf)
+"
+"1","
+
+###"
+"1"," "
+"1","Oregon State"
+"1"," "
+"1","
+
+"
+"1","- [IMPACTS Grant Program](https://www.oregon.gov/cjc/impacts/Documents/2020_IMPACTSOnePager.pdf)
+"
+"1","
+
+##"
+"1"," "
+"1","Misc"
+"1"," "
+"1","
+
+"
+"1","
+
+###"
+"1"," "
+"1","Fidget Tech"
+"1"," "
+"1","
+
+"
+"1","- [Need info](https://www.fidgetech.org/)
+"
+"1","
+
+###"
+"1"," "
+"1","Organization for Autism Research"
+"1"," "
+"1","
+
+"
+"1","- [Community Grant Competition](https://researchautism.smapply.org/prog/community_grant/)
+"
+"1","
+
+###"
+"1"," "
+"1","Patient Centered Outcomes Research Organization"
+"1"," "
+"1","
+
+"
+"1","- [Need info](https://www.pcori.org/)
+"

@@ -20,7 +20,11 @@ headings = getSheetNames(funders_file)
 
 ```
 
-```{r, echo=F, results="asis", error=F, warning=F}
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+#| output: asis
 
 for (heading in headings) {
   cat("\n\n##", heading, "\n\n")

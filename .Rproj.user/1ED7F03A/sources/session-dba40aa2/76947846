@@ -1,0 +1,31 @@
+{
+    "id": "76947846",
+    "path": "//wsl.localhost/Ubuntu/home/balter/aagu_main_document/representitive_salaries.qmd",
+    "project_path": "representitive_salaries.qmd",
+    "type": "quarto_markdown",
+    "hash": "2989106835",
+    "contents": "",
+    "dirty": false,
+    "created": 1717713149245.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "0,0",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "285:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1717713347,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1717713347376,
+    "read_only": false,
+    "read_only_alternatives": []
+}
