@@ -1,0 +1,85 @@
+# Budget {#budget}
+
+```{r, include=F}
+library(tidyverse)
+source("print_fte_table.R")
+source("print_budget_table.R")
+# library(googlesheets4)
+# sheet_url = "https://docs.google.com/spreadsheets/d/1tDWDwJANCWrrx1dn4g40qG0ejlE5WFwfOb9HnWsCmto/edit?usp=sharing"
+# data = read_sheet(sheet_url, sheet = "Jobs Data")
+data = 
+  read_csv('jobs_data.csv')
+```
+
+Autism All Grown Up will place a strong emphasis on hiring autistic and neurodiverse Oregon adults and paying them a market wage. The wages will be at the low end during the initial Seed and Sprout phases and increase during the later phases. The hourly rates shown represent full compensation on a 1099 and do not include benefits. We will make necessary adjustments when we are able to provide benefits as well.
+
+We have created our budget estimate based on the minimum staffing we believe can meet our performance goals combined with market-rate salary estimates from \[ZipRecruiter\] (https://www.ziprecruiter.com/Salaries) for approximate job titles in the Portland, OR area (see @appendix-representative-salaries). We project a budget of approximately \$150,000 for the first six months (26 weeks) of operation.
+
+## Seed
+
+```{r, echo=F, results="asis"}
+ft_staffing <- data %>%
+  filter(Phase == "seed") %>%
+  arrange(FTE) %>%
+  select(Responsibility, FTE, Description) %>%
+  printFteTable() %>% 
+  set_caption("Staffing")
+
+print(ft_staffing)
+
+ft_budget <- data %>%
+  filter(Phase == "seed") %>%
+  arrange(FTE) %>%
+  select(Responsibility, FTE, Rate) %>%
+  printBudgetTable() %>% 
+  set_caption("Budget")
+
+print(ft_budget)
+
+```
+
+## Sprout
+
+```{r, echo=F, results="asis"}
+ft_staffing <- data %>%
+  filter(Phase == "sprout") %>%
+  arrange(FTE) %>%
+  select(Responsibility, FTE, Description) %>%
+  printFteTable() %>% 
+  set_caption("Staffing")
+
+print(ft_staffing)
+
+ft_budget <- data %>%
+  filter(Phase == "sprout") %>%
+  arrange(FTE) %>%
+  select(Responsibility, FTE, Rate) %>%
+  printBudgetTable() %>% 
+  set_caption("Budget")
+
+print(ft_budget)
+
+```
+
+## Grow
+
+```{r, echo=F, results="asis"}
+ft_staffing <- data %>%
+  filter(Phase == "grow") %>%
+  arrange(FTE) %>%
+  select(Responsibility, FTE, Description) %>%
+  printFteTable() %>% 
+  set_caption("Staffing")
+
+print(ft_staffing)
+
+ft_budget <- data %>%
+  filter(Phase == "grow") %>%
+  arrange(FTE) %>%
+  select(Responsibility, FTE, Rate) %>%
+  printBudgetTable() %>% 
+  set_caption("Budget")
+
+print(ft_budget)
+
+```

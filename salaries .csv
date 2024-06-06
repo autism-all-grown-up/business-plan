@@ -1,0 +1,49 @@
+role,earner_class,Annual Salary,Monthly Pay,Weekly Pay,Hourly Wage
+Data Analyst,Top Earners,"$127,790.00","$10,649.00","$2,458.00",$61.00
+Data Analyst,75th Percentile,"$102,900.00","$8,575.00","$1,979.00",$49.00
+Data Analyst,Average,"$87,640.00","$7,303.00","$1,685.00",$42.00
+Data Analyst,25th Percentile,"$66,300.00","$5,525.00","$1,275.00",$32.00
+Data Engineer,Top Earners,"$171,801.00","$14,316.00","$3,303.00",$83.00
+Data Engineer,75th Percentile,"$145,800.00","$12,150.00","$2,803.00",$70.00
+Data Engineer,Average,"$138,279.00","$11,523.00","$2,659.00",$66.00
+Data Engineer,25th Percentile,"$121,400.00","$10,116.00","$2,334.00",$58.00
+Database Administrator,Top Earners,"$150,061.00","$12,505.00","$2,886.00",$72.00
+Database Administrator,75th Percentile,"$130,400.00","$10,867.00","$2,508.00",$63.00
+Database Administrator,Average,"$108,448.00","$9,037.00","$2,086.00",$52.00
+Database Administrator,25th Percentile,"$84,800.00","$7,067.00","$1,631.00",$41.00
+Director of Operations,Top Earners,"$171,801.00","$14,316.00","$3,303.00",$83.00
+Director of Operations,75th Percentile,"$143,700.00","$11,975.00","$2,763.00",$69.00
+Director of Operations,Average,"$102,922.00","$8,576.00","$1,979.00",$49.00
+Director of Operations,25th Percentile,"$80,100.00","$6,675.00","$1,540.00",$39.00
+Grant Writer,Top Earners,"$91,733.00","$7,644.00","$1,764.00",$44.00
+Grant Writer,75th Percentile,"$77,900.00","$6,492.00","$1,498.00",$37.00
+Grant Writer,Average,"$70,107.00","$5,842.00","$1,348.00",$34.00
+Grant Writer,25th Percentile,"$55,100.00","$4,592.00","$1,060.00",$26.00
+Director of Operations,Top Earners,"$171,801.00","$14,316.00","$3,303.00",$83.00
+Director of Operations,75th Percentile,"$143,700.00","$11,975.00","$2,763.00",$69.00
+Director of Operations,Average,"$102,922.00","$8,576.00","$1,979.00",$49.00
+Director of Operations,25th Percentile,"$80,100.00","$6,675.00","$1,540.00",$39.00
+Operations Manager,Top Earners,"$115,064.00","$9,588.00","$2,212.00",$55.00
+Operations Manager,75th Percentile,"$82,200.00","$6,850.00","$1,580.00",$40.00
+Operations Manager,Average,"$68,498.00","$5,708.00","$1,317.00",$33.00
+Operations Manager,25th Percentile,"$43,500.00","$3,625.00",$836.00,$21.00
+Policy Analyst,Top Earners,"$123,548.00","$10,295.00","$2,375.00",$59.00
+Policy Analyst,75th Percentile,"$123,500.00","$10,291.00","$2,375.00",$59.00
+Policy Analyst,Average,"$97,464.00","$8,122.00","$1,874.00",$47.00
+Policy Analyst,25th Percentile,"$88,000.00","$7,333.00","$1,692.00",$42.00
+Research Associate,Top Earners,"$94,915.00","$7,910.00","$1,825.00",$46.00
+Research Associate,75th Percentile,"$81,700.00","$6,808.00","$1,571.00",$39.00
+Research Associate,Average,"$71,781.00","$5,982.00","$1,380.00",$35.00
+Research Associate,25th Percentile,"$57,800.00","$4,817.00","$1,112.00",$28.00
+Senior Manager,Top Earners,"$178,695.00","$14,891.00","$3,436.00",$86.00
+Senior Manager,75th Percentile,"$144,800.00","$12,066.00","$2,784.00",$70.00
+Senior Manager,Average,"$93,748.00","$7,812.00","$1,802.00",$45.00
+Senior Manager,25th Percentile,"$52,000.00","$4,333.00","$1,000.00",$25.00
+Website Designer,Top Earners,"$109,232.00","$9,103.00","$2,101.00",$53.00
+Website Designer,75th Percentile,"$84,800.00","$7,067.00","$1,631.00",$41.00
+Website Designer,Average,"$77,227.00","$6,436.00","$1,485.00",$37.00
+Website Designer,25th Percentile,"$56,700.00","$4,725.00","$1,090.00",$27.00
+Website Programmer,Top Earners,"$119,306.00","$9,942.00","$2,294.00",$57.00
+Website Programmer,75th Percentile,"$100,700.00","$8,392.00","$1,937.00",$48.00
+Website Programmer,Average,"$85,087.00","$7,091.00","$1,636.00",$41.00
+Website Programmer,25th Percentile,"$67,300.00","$5,608.00","$1,294.00",$32.00

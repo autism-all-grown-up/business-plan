@@ -1,0 +1,10 @@
+"0","source(""print_glossary.R"")  # Assuming your function is saved in glossary_functions.R
+"
+"2","Warning in file(filename, ""r"", encoding = encoding) :"
+"2","
+ "
+"2"," cannot open file 'print_glossary.R': No such file or directory
+"
+"2","Error in file(filename, ""r"", encoding = encoding) : 
+  cannot open the connection
+"

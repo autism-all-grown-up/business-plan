@@ -1,0 +1,40 @@
+---
+title: "Example Document with Glossary"
+format: 
+  html: default
+  pdf: default
+  docx: default
+---
+
+# Glossary {#sec-glossary}
+
+```{r setup, include=FALSE}
+# Load necessary libraries
+library(tidyverse)
+library(flextable)
+source("glossary_functions.R")  # Assuming your function is saved in glossary_functions.R
+
+# Read the glossary CSV file
+glossary <- read_csv("glossary.csv")
+```
+
+::: {.content-visible when-format="html"}
+```{r, echo=FALSE}
+# Print the glossary table for HTML
+printGlossary(glossary)
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+```{r, echo=FALSE}
+# Print the glossary table for PDF
+printGlossary(glossary)
+```
+:::
+
+::: {.content-visible when-format="docx"}
+```{r, echo=FALSE}
+# Print the glossary table for DOCX
+printGlossary(glossary)
+```
+:::
