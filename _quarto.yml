@@ -34,16 +34,19 @@ bibliography: aagu.bib
 
 format:
   html:
-    theme: yeti
+    theme: journal
     output-dir: docs
+    number-sections: false
     toc: true
     toc-depth: 2
   pdf:
     documentclass: scrreprt
+    number-sections: false
     toc-title: "Contents"
     toc: true
     toc-depth: 2
   docx:
+    number-sections: false
     toc-title: "Contents"
     toc: true
     toc-depth: 2
