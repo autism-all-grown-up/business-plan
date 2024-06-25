@@ -1,6 +1,12 @@
 project:
   type: book
 
+# Global options
+bibliography: "./aagu.bib"
+csl: "https://www.zotero.org/styles/ama"
+link-citations: true
+cite-method: citeproc
+
 book:
   title: "Autism All Grown Up"
   subtitle: "The Autism Nexus of Oregon"
@@ -21,7 +27,6 @@ book:
     - potential_funders.qmd
     - neurodiversity_and_neurodivergence.qmd
   references: references.qmd
-
   sidebar:
     tools:
       - icon: file-earmark-pdf
@@ -29,8 +34,6 @@ book:
       - icon: file-earmark-word
         href: Autism-All-Grown-Up.docx
     collapse-level: 4
-
-bibliography: aagu.bib
 
 format:
   html:

@@ -1,6 +1,31 @@
 {
     "sources": [
         {
+            "URL": ": https://www.hhs.gov/sites/default/files/2017AutismReport.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        4
+                    ]
+                ]
+            },
+            "id": "2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        10
+                    ]
+                ]
+            },
+            "publisher": "U.S. Department of Health and Human Services",
+            "title": "Report to Congress: Young Adults and Transitioning Youth with Autism Spectrum Disorder.",
+            "title-short": "Report to Congress",
+            "type": "report"
+        },
+        {
             "DOI": "10.1017/ipm.2019.3",
             "ISSN": "0790-9667, 2051-6967",
             "URL": "https://www.cambridge.org/core/journals/irish-journal-of-psychological-medicine/article/abs/case-of-mistaken-diagnoses-diagnostic-and-management-challenges-in-a-case-of-adult-autism-spectrum-disorder/F42733B025EDED3F316EC150029B75B1",
@@ -460,6 +485,71 @@
             "volume": "12"
         },
         {
+            "DOI": "10.1016/j.psychres.2019.04.023",
+            "ISSN": "1872-7123",
+            "abstract": "The aim of this study was to evaluate the extent of internalised stigma and possible predictors in adults with a diagnosis of autism spectrum disorder (ASD). We measured internalised stigma in a sample of 149 adults with ASD and an IQ ≥70 (79.2% male, mean age 31.8 years), using the Brief Version of the Internalized Stigma of Mental Illness Scale (ISMI-10). The mean ISMI-10 score was 1.93 (SD=0.57), with 15.4% of participants reporting moderate or severe internalised stigma. Moderate or severe stigma was more frequent in persons aged ≥35 years (OR: 4.36), and in individuals with low educational level (OR: 6.00). IQ, sex and ASD diagnostic subtype (ICD-10) did not influence stigma severity. Compared to other mental disorders, the level of internalised stigma in adults with ASD without intellectual disability appears to be lower.",
+            "author": [
+                {
+                    "family": "Bachmann",
+                    "given": "Christian J."
+                },
+                {
+                    "family": "Höfer",
+                    "given": "Juliana"
+                },
+                {
+                    "family": "Kamp-Becker",
+                    "given": "Inge"
+                },
+                {
+                    "family": "Küpper",
+                    "given": "Charlotte"
+                },
+                {
+                    "family": "Poustka",
+                    "given": "Luise"
+                },
+                {
+                    "family": "Roepke",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Roessner",
+                    "given": "Veit"
+                },
+                {
+                    "family": "Stroth",
+                    "given": "Sanna"
+                },
+                {
+                    "family": "Wolff",
+                    "given": "Nicole"
+                },
+                {
+                    "family": "Hoffmann",
+                    "given": "Falk"
+                }
+            ],
+            "container-title": "Psychiatry Research",
+            "container-title-short": "Psychiatry Res",
+            "id": "Bachmann2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        6
+                    ]
+                ]
+            },
+            "keyword": "Adolescent,Adult,Adults,Aged,Autism spectrum disorder,Autism Spectrum Disorder,Defense Mechanisms,Female,Germany,Humans,Intellectual Disability,ISMI questionnaire,Male,Middle Aged,Outpatient Clinics Hospital,Reproducibility of Results,Social Stigma,Stigma,Surveys and Questionnaires,Young Adult",
+            "language": "en-US",
+            "page": "94-99",
+            "title": "Internalised stigma in adults with autism: A German multi-center survey",
+            "title-short": "Internalised stigma in adults with autism",
+            "type": "article-journal",
+            "volume": "276"
+        },
+        {
             "DOI": "10.1016/0010-0277(85)90022-8",
             "ISSN": "00100277",
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/0010027785900228",
@@ -560,6 +650,95 @@
             "title": "The physical and mental health of middle aged and older adults on the autism spectrum and the impact of intellectual disability",
             "type": "article-journal",
             "volume": "63"
+        },
+        {
+            "DOI": "10.1002/aur.2288",
+            "ISSN": "1939-3806",
+            "URL": "https://onlinelibrary.wiley.com/doi/abs/10.1002/aur.2288",
+            "abstract": "Employment rates for autistic individuals are poor, even compared to those from other disability groups. Internationally, there remains limited understanding of the factors influencing employment across the stages of preparing for, gaining, and maintaining employment. This is the third in a series of studies conducted as part of an International Society for Autism Research (INSAR) policy brief intended to improve employment outcomes for autistic individuals. A multi-informant international survey with five key stakeholder groups, including autistic individuals, their families, employers, service providers, and researchers, was undertaken in Australia, Sweden, and the United States to understand the facilitators and barriers to employment for autistic adults. A total of 687 individuals participated, including autistic individuals (n = 246), family members (n = 233), employers (n = 35), clinicians/service providers (n = 123), and researchers (n = 50). Perceptions of the facilitators and barriers to employment differed significantly across both key stakeholder groups and countries, however, ensuring a good job match and focusing on strengths were identified by all groups as important for success. Key barriers to employment included stigma, a lack of understanding of autism spectrum disorder (ASD) and communication difficulties. Results suggest that a holistic approach to employment for autistic individuals is required, aimed at facilitating communication between key stakeholders, addressing attitudes and understanding of ASD in the workplace, using strength-based approaches and providing early work experience. Autism Res 2020, 13: 1195-1214. © 2020 International Society for Autism Research, Wiley Periodicals, Inc. Lay Summary Autistic individuals experience significant difficulty getting and keeping a job. This article presents a survey study involving autistic individuals, their families, employers, service providers and researchers in Australia, Sweden, and the United States to understand their perspectives on the factors that support or act as barriers to employment. While perspectives varied across key stakeholders, strategies such as using a holistic approach, targeting workplace attitudes and understanding, focusing on strengths, and providing early work experience are important for success.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Black",
+                    "given": "Melissa H."
+                },
+                {
+                    "family": "Mahdi",
+                    "given": "Soheil"
+                },
+                {
+                    "family": "Milbourn",
+                    "given": "Benjamin"
+                },
+                {
+                    "family": "Scott",
+                    "given": "Melissa"
+                },
+                {
+                    "family": "Gerber",
+                    "given": "Alan"
+                },
+                {
+                    "family": "Esposito",
+                    "given": "Christopher"
+                },
+                {
+                    "family": "Falkmer",
+                    "given": "Marita"
+                },
+                {
+                    "family": "Lerner",
+                    "given": "Matthew D."
+                },
+                {
+                    "family": "Halladay",
+                    "given": "Alycia"
+                },
+                {
+                    "family": "Ström",
+                    "given": "Eva"
+                },
+                {
+                    "family": "D’Angelo",
+                    "given": "Axel"
+                },
+                {
+                    "family": "Falkmer",
+                    "given": "Torbjorn"
+                },
+                {
+                    "family": "Bölte",
+                    "given": "Sven"
+                },
+                {
+                    "family": "Girdler",
+                    "given": "Sonya"
+                }
+            ],
+            "container-title": "Autism Research",
+            "id": "Black2020",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "keyword": "Adult,adults,Australia,autism,Autistic Disorder,cross-cultural,employment,Employment,Humans,Internationality,key stakeholders,Sweden",
+            "language": "en-US",
+            "page": "1195-1214",
+            "title": "Multi-informant International Perspectives on the Facilitators and Barriers to Employment for Autistic Adults",
+            "type": "article-journal",
+            "volume": "13"
         },
         {
             "DOI": "10.1177/2156869318804297",
@@ -850,6 +1029,43 @@
             "title": "New Candidates for Autism/Intellectual Disability Identified by Whole-Exome Sequencing",
             "type": "article-journal",
             "volume": "22"
+        },
+        {
+            "DOI": "10.1177/1362361318811290",
+            "ISSN": "1461-7005",
+            "abstract": "Research suggests that while individuals may self-report positive attitudes towards autism, dehumanising attitudes (seeing another as less than human) may still prevail. This study investigated knowledge, openness and dehumanising attitudes of non-autistic people towards autistic people. A total of 361 participants completed a survey measuring autism openness, knowledge and experience, along with a measure of dehumanisation. Results showed that knowledge of autism was comparable to past research and females were more open towards autism. Findings also indicated evidence for dehumanisation, with a particular denial of ’human uniqueness’ traits. Furthermore, dehumanisation was related to openness towards autism. These findings have implications for targeting attitudes to reduce stigma associated with autism.",
+            "author": [
+                {
+                    "family": "Cage",
+                    "given": "Eilidh"
+                },
+                {
+                    "family": "Di Monaco",
+                    "given": "Jessica"
+                },
+                {
+                    "family": "Newell",
+                    "given": "Victoria"
+                }
+            ],
+            "container-title": "Autism: The International Journal of Research and Practice",
+            "container-title-short": "Autism",
+            "id": "Cage2019",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        8
+                    ]
+                ]
+            },
+            "keyword": "Adolescent,Attitude to Health,attitudes,autism spectrum conditions,autism understanding,Autistic Disorder,Comprehension,dehumanisation,Dehumanization,Female,Humans,Male,Sex Factors,Surveys and Questionnaires,Young Adult",
+            "language": "en-US",
+            "page": "1373-1383",
+            "title": "Understanding, attitudes and dehumanisation towards autistic people",
+            "type": "article-journal",
+            "volume": "23"
         },
         {
             "DOI": "10.1097/MD.0000000000020899",
@@ -2916,6 +3132,52 @@
             "volume": "51"
         },
         {
+            "DOI": "10.1002/aur.2652",
+            "URL": "https://doi.org/10.1002/aur.2652",
+            "abstract": "Autism can be understood as a concealable stigmatised identity. This is the first systematic review to synthesise the literature on autistic people’s experiences of stigma and coping strategies. 2877 studies were screened and 27 were included in this review. The reviewed literature demonstrates that autistic individuals are acutely aware of being stereotyped, judged, and discriminated by others. Autistic people also show signs of internalising stigma, rendering them more vulnerable to low self-worth and poorer mental health. To manage the impact of stigma, the included studies suggest that autistic individuals may use these strategies: concealment and camouflaging, selective disclosure and self-advocacy, as well as positive reframing and reconstructing identity. However, the evidence is limited and mixed in terms of how helpful and effective these strategies are. Future studies should include autistic populations with a wider range of intellectual abilities and explore interventions that can support autistic people in managing stigma to supplement interventions that seek to reduce stigma towards autistic people. The power of language in perpetuating and challenging stigma also has important implications for research and practice, underscoring the need for researchers and practitioners to reflect carefully on the messages they are communicating about autism. Lay summaryThis review has found that autistic people often experience stigma, which refers to negative attitudes and treatment from others. Because of that, some autistic people also have negative beliefs about themselves, which may affect their self-worth and mental health.While research suggests that autistic people use a range of strategies to manage stigma, the evidence is limited and mixed in terms of how helpful these strategies are.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Han",
+                    "given": "Emeline"
+                },
+                {
+                    "family": "Scior",
+                    "given": "Katrina"
+                },
+                {
+                    "family": "Avramides",
+                    "given": "Katerina"
+                },
+                {
+                    "family": "Crane",
+                    "given": "Laura"
+                }
+            ],
+            "container-title": "Autism Research",
+            "id": "Han2021",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "title": "A systematic review on autistic people’s experiences of stigma and coping strategies",
+            "type": "article-journal",
+            "volume": "15"
+        },
+        {
             "DOI": "10.1177/1362361320953967",
             "abstract": "While the medical home has proven effective at improving continuity of care among other populations, there is a paucity of literature testing the effectiveness of medical homes in serving the healthcare needs of autistic adults. We conducted a retrospective cohort study to compare the continuity of care of autistic adult patients at a specialized primary care medical home designed to remove barriers to care for autistic adults, called the Center for Autism Services and Transition (CAST), to propensity score matched national samples of autistic adults with private insurance or Medicare. The unadjusted median Bice–Boxerman continuity of care index was 0.6 (interquartile range = 0.4–1.0) for CAST patients, 0.5 (interquartile range = 0.3–1.0) for Medicare beneficiaries, and 0.6 (interquartile range = 0.4–1.0) for privately insured autistic adults. In multivariable models controlling for demographic characteristics, on average, CAST patients had continuity of care indices that were 10% higher than national samples of autistic adult Medicare beneficiaries (p < 0.0001). Continuity of care among CAST patients did not significantly differ from that of the national sample of privately insured autistic adults (p = 0.08). Our findings suggest that medical homes, like CAST, may be a promising solution to improve healthcare delivery for the growing population of autistic adults. Lay abstract There is a nationally recognized need for innovative healthcare delivery models to improve care continuity for autistic adults as they age out of pediatric and into adult healthcare systems. One possible model of care delivery is called the “medical home”. The medical home is not a residential home, but a system where a patient’s healthcare is coordinated through a primary care physician to ensure necessary care is received when and where the patient needs it. We compared the continuity of care among autistic adult patients at a specialized primary care medical home designed to remove barriers to care for autistic adults, called the CAST, to matched national samples of autistic adults with private insurance or Medicare. Continuity of primary care among CAST patients was significantly better than that of matched national samples of autistic adult Medicare beneficiaries and similar to that of privately insured autistic adults. Our findings suggest that medical homes, like CAST, are a promising solution to improve healthcare delivery for the growing population of autistic adults.",
             "author": [
@@ -4140,6 +4402,112 @@
             "volume": "91"
         },
         {
+            "DOI": "10.1089/aut.2021.0021",
+            "ISSN": "2573-9581",
+            "URL": "https://www.liebertpub.com/doi/10.1089/aut.2021.0021",
+            "abstract": "Background: Compared with adults in the general population, autistic adults are more likely to experience poor mental health, which can contribute to increased suicidality. While the autistic community has long identified autistic burnout as a significant mental health risk, to date, only one study has been published. Early research has highlighted the harmful impact of autistic burnout among autistic adults and the urgent need to better understand this phenomenon. Methods: To understand the lived experiences of autistic adults, we used data scraping to extract public posts about autistic burnout from 2 online platforms shared between 2005 and 2019, which yielded 1127 posts. Using reflexive thematic analysis and an inductive “bottom-up” approach, we sought to understand the etiology, symptoms, and impact of autistic burnout, as well as prevention and recovery strategies. Two autistic researchers with self-reported experience of autistic burnout reviewed the themes and provided insight and feedback. Results: We identified eight primary themes and three subthemes across the data. (1) Systemic, pervasive lack of autism awareness. (1.1) Discrimination and stigma. (2) A chronic or recurrent condition. (3) Direct impact on health and well-being. (4) A life unlived. (5) A blessing in disguise? (6) Self-awareness and personal control influence risk. (6.1) “You need enough balloons to manage the weight of the rocks.” (7) Masking: Damned if you do, damned if you don’t. (8) Ask the experts. (8.1) Stronger together. The overarching theme was that a pervasive lack of awareness and stigma about autism underlie autistic burnout. Conclusions: We identified a set of distinct yet interrelated factors that characterize autistic burnout as a recurring condition that can, directly and indirectly, impact autistic people’s functioning, mental health, quality of life, and well-being. The findings suggest that increased awareness and acceptance of autism could be key to burnout prevention and recovery.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Mantzalas",
+                    "given": "Jane"
+                },
+                {
+                    "family": "Richdale",
+                    "given": "Amanda L."
+                },
+                {
+                    "family": "Adikari",
+                    "given": "Achini"
+                },
+                {
+                    "family": "Lowe",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Dissanayake",
+                    "given": "Cheryl"
+                }
+            ],
+            "container-title": "Autism in Adulthood",
+            "id": "Mantzalas2022",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        3
+                    ]
+                ]
+            },
+            "page": "52-65",
+            "publisher": "Mary Ann Liebert, Inc., publishers",
+            "title": "What Is Autistic Burnout? A Thematic Analysis of Posts on Two Online Platforms",
+            "title-short": "What Is Autistic Burnout?",
+            "type": "article-journal",
+            "volume": "4"
+        },
+        {
+            "DOI": "10.3389/fpsyt.2023.1243618",
+            "ISSN": "1664-0640",
+            "URL": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2023.1243618/full",
+            "abstract": "<p>A recent meta-analysis reveals almost half of autistic individuals experience some form of victimization in their lifetime, including bullying and other forms of stigma. Research among caregivers of autistic individuals demonstrates that stigma can have a long-lasting impact on other aspects of a social identity, such as self-esteem, but less research has specifically examined this among autistic adults themselves, in spite of research suggesting these are likely constructs that contribute to the internalization of stigma and subsequent mental health consequences. The current study used a mixed method approach to assess the relation between stigma and several components of social identity and social functioning. More specifically, among 45 autistic young adults, three dimensions of self-reported stigma (discrimination, disclosure, and positive aspects) were examined in relation to self-esteem, self-efficacy, social satisfaction and adaptive social functioning. Quantitative analyses revealed higher reported discriminative and disclosure stigma were significantly associated with lower self-efficacy. Increased experience with all types of stigma were associated with lower social satisfaction. Greater reported disclosure stigma was also associated with lower self-esteem. Qualitative interviewing among eight autistic young adults helped to better understand the nature of stigma and the impact of these experiences. Thematic analysis of the qualitative data revealed that all of the participants experienced stigma in the form of exclusion or isolation and that a majority also experienced verbal bullying. Many of the negative interactions came from educators, peers, and family members. Most participants indicated that these stigmatizing interactions directly contributed to decreased social satisfaction, diminished self-efficacy, and lowered self-esteem. A greater understanding of the negative consequences of stigma can inform efforts to increase awareness and acceptance of autism.</p>",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Marion",
+                    "given": "Alex"
+                },
+                {
+                    "family": "Bowman",
+                    "given": "Karrah"
+                },
+                {
+                    "family": "Thomas",
+                    "given": "Gina"
+                },
+                {
+                    "family": "Harrison",
+                    "given": "Ashley J."
+                }
+            ],
+            "container-title": "Frontiers in Psychiatry",
+            "container-title-short": "Front. Psychiatry",
+            "id": "Marion2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        10,
+                        26
+                    ]
+                ]
+            },
+            "keyword": "autism,neurodiversity,self-efficacy,self-esteem,Social identity,Social satisfaction,stigma",
+            "language": "en-US",
+            "publisher": "Frontiers",
+            "title": "A mixed method examination: How stigma experienced by autistic adults relates to metrics of social identity and social functioning",
+            "title-short": "A mixed method examination",
+            "type": "article-journal",
+            "volume": "14"
+        },
+        {
             "DOI": "10.1016/j.rasd.2019.02.007",
             "ISSN": "1750-9467",
             "URL": "https://www.sciencedirect.com/science/article/pii/S1750946719300406",
@@ -5065,6 +5433,144 @@
             "volume": "19"
         },
         {
+            "ISSN": "0017-8012",
+            "abstract": "Many people with neurological conditions such as autism spectrum disorder and dyslexia have extraordinary skills, including in pattern recognition, memory, and mathematics. Yet they often struggle to fit the profiles sought by employers. A growing number of companies, including SAP, Hewlett-Packard Enterprise, and Microsoft, have reformed their HR processes in order to access neurodiverse talent—and are seeing productivity gains, quality improvement, boosts in innovative capabilities, and increased employee engagement as a result. The programs vary but have seven major elements in common. Companies should: Team with governments or nonprofits experienced in working with people with disabilities Use noninterview assessment processes Train other workers and managers in what to expect Set up a support system Tailor methods for managing careers Scale the program Mainstream the program The work for managers will be harder, but the payoff to companies will be considerable: access to more of their employees’ talents, along with diverse perspectives that will help them compete.",
+            "container-title": "Harvard Business Review",
+            "id": "noauthor2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        5
+                    ]
+                ]
+            },
+            "keyword": "Developing employees,Managing people,Marginalized groups,Neurodiversity",
+            "title": "Neurodiversity as a Competitive Advantage",
+            "type": "article-journal"
+        },
+        {
+            "URL": "https://www.thetransmitter.org/spectrum/meet-the-autistic-scientists-redefining-autism-research/",
+            "abstract": "Growing ranks of researchers on the spectrum are overcoming barriers — from neurotypical bias to sensory sensitivities — to shape autism science.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        26
+                    ]
+                ]
+            },
+            "id": "noauthor2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        6
+                    ]
+                ]
+            },
+            "keyword": "autism,autistic researchers",
+            "language": "en-US",
+            "title": "Meet the autistic scientists redefining autism research",
+            "type": ""
+        },
+        {
+            "ISSN": "0190-8286",
+            "abstract": "Autistic people learn to be good guessers, but we never really know if our social responses are appropriate. We live in a state of perpetual social anxiety, always in danger of saying or doing the wrong thing.",
+            "container-title": "Washington post (Washington, D.C. : 1974)",
+            "container-title-short": "Washington Post",
+            "id": "noauthor2020a",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        3
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "title": "Perspective | “You don’t look autistic”: The reality of high-functioning autism",
+            "title-short": "Perspective | “You don’t look autistic”",
+            "type": "article-journal"
+        },
+        {
+            "URL": "https://www.thetransmitter.org/spectrum/double-empathy-explained/",
+            "abstract": "The double empathy theory challenges the idea that social difficulties are specific to autism and suggests that problems arise from a mismatch in perspective between autistic and non-autistic people.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        26
+                    ]
+                ]
+            },
+            "id": "noauthor2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        7
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "title": "Double empathy, explained",
+            "type": ""
+        },
+        {
+            "URL": "http://drexel.edu/news/archive/2021/August/National-Autism-Indicators-Report-Mental-Health",
+            "abstract": "Researchers from the A.J. Drexel Autism Institute at Drexel University released the latest National Autism Indicators Report highlighting the importance of mental health care in autistic children and adults. The report found high rates of mental health conditions in autistic children and adults and persistent disparities in mental health and health care by race and ethnicity.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        28
+                    ]
+                ]
+            },
+            "id": "noauthor2021a",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        8
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "title": "National Autism Indicators Report: High Rates of Mental Health Conditions and Persistent Disparities in Care",
+            "title-short": "National Autism Indicators Report",
+            "type": ""
+        },
+        {
+            "URL": "http://sparkforautism.org/discover/autism-suicide-risk",
+            "abstract": "People on the autism spectrum face a troubling risk of suicide. What’s the risk, and why?",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        28
+                    ]
+                ]
+            },
+            "id": "noauthor2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        9
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "title": "| Autism and the Troubling Risk of Suicide",
+            "type": ""
+        },
+        {
             "URL": "https://en.wikipedia.org/w/index.php?title=Spectrum_disorder&oldid=1225310990",
             "abstract": "A spectrum disorder is a disorder that includes a range of linked conditions, sometimes also extending to include singular symptoms and traits. The different elements of a spectrum either have a similar appearance or are thought to be caused by the same underlying mechanism. In either case, a spectrum approach is taken because there appears to be \"not a unitary disorder but rather a syndrome composed of subgroups\". The spectrum may represent a range of severity, comprising relatively \"severe\" mental disorders through to relatively \"mild and nonclinical deficits\". In some cases, a spectrum approach joins conditions that were previously considered separately. A notable example of this trend is the autism spectrum, where conditions on this spectrum may now all be referred to as autism spectrum disorders. A spectrum approach may also expand the type or the severity of issues which are included, which may lessen the gap with other diagnoses or with what is considered \"normal\". Proponents of this approach argue that it is in line with evidence of gradations in the type or severity of symptoms in the general population.",
             "accessed": {
@@ -5090,6 +5596,14 @@
             "language": "en-US",
             "title": "Spectrum disorder",
             "type": "entry-encyclopedia"
+        },
+        {
+            "abstract": "INTRODUCTION: THE 2020 FEDERAL YOUTH TRANSITION PLAN, A FEDERAL INTERAGENCY STRATEGY 9 BACKGROUND 10 What is transition? 10 Federal Partners in Transition Workgroup 10 Assumptions 10 VISION AND COMPATIBLE OUTCOME GOALS 11 Vision 11 FPT Compatible Outcome Goals for Transition Programs and Policies 12 FPT APPROACH 14 How FPT Fosters Collaboration 14 FEDERAL INTERAGENCY STRATEGY IN ACTION 19 Administration on Intellectual and Developmental Disabilities’ (AIDD) Partnerships in Employment Systems Change Grants 19 Disability Employment Initiative (DEI) 19 Employment First 19 Leadership Education in Neurodevelopmental and Other Related Disabilities 20 Medicaid & The Health Insurance Marketplaces 20 National Institute on Disability and Rehabilitation Research (NIDRR) Co-funded Research in Transition 21 Promoting Readiness of Minors in Supplemental Security Income (PROMISE) 21 Rehabilitation Services Administration (RSA) Special Demonstration Transition Projects 22 Office of Special Education Programs (OSEP) and Rehabilitation Services Administration (RSA) 23 Youth Transition Demonstration 23 POLICY AREAS FOR FUTURE STRATEGIC FOCUS 24 CONCLUSION",
+            "id": "noauthornoyear",
+            "language": "en-US",
+            "title": "The 2020 Federal Youth Transition Plan: A Federal Interagency Strategy",
+            "title-short": "The 2020 Federal Youth Transition Plan",
+            "type": "article-journal"
         },
         {
             "URL": "https://www.dol.gov/agencies/odep/program-areas/autism",
@@ -5132,6 +5646,37 @@
             "type": "article-magazine"
         },
         {
+            "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5591355/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        28
+                    ]
+                ]
+            },
+            "id": "noauthornoyeard",
+            "title": "Medical comorbidities in children and adolescents with autism spectrum disorders and attention deficit hyperactivity disorders: A systematic review - PMC",
+            "title-short": "Medical comorbidities in children and adolescents with autism spectrum disorders and attention deficit hyperactivity disorders",
+            "type": ""
+        },
+        {
+            "URL": "https://www.ocali.org/project/2019-Employment-Guide/page/national-autism-indicators-report",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        26
+                    ]
+                ]
+            },
+            "id": "noauthornoyeare",
+            "title": "OCALI | Employment and the Youth with Autism Spectrum Disorders | National Autism Indicators Report",
+            "type": ""
+        },
+        {
             "URL": "https://psycnet.apa.org/fulltext/2019-75285-001.html",
             "accessed": {
                 "date-parts": [
@@ -5145,6 +5690,52 @@
             "id": "noauthornoyeare",
             "title": "APA PsycNet FullTextHTML page",
             "type": "webpage"
+        },
+        {
+            "URL": "https://www.tandfonline.com/doi/abs/10.1080/09687599.2012.710008#2b85d6ca-6520-4a3d-8e4a-aa9f2ee3f33d-b6de7b7c-de82-45a5-9538-313dd15c6659",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        26
+                    ]
+                ]
+            },
+            "id": "noauthornoyearf",
+            "title": "On the ontological status of autism: The “double empathy problem”: Disability & Society: Vol 27, No 6",
+            "title-short": "On the ontological status of autism",
+            "type": ""
+        },
+        {
+            "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8216140/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        28
+                    ]
+                ]
+            },
+            "id": "noauthornoyearg",
+            "title": "The Relationship of Age with the Autism-Spectrum Quotient Scale in a Large Sample of Adults - PMC",
+            "type": ""
+        },
+        {
+            "URL": "https://iacc.hhs.gov/publications/report-to-congress/2017/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        28
+                    ]
+                ]
+            },
+            "id": "noauthornoyearh",
+            "title": "Report to Congress 2017 - Young Adults and Transitioning Youth with Autism Spectrum Disorder | IACC",
+            "type": ""
         },
         {
             "URL": "https://iacc.hhs.gov/resources/transition/reports/",
@@ -5165,6 +5756,12 @@
             "id": "noauthornoyeari",
             "title": "Transition Resources for Autism - Reports | IACC",
             "type": "report"
+        },
+        {
+            "id": "noauthornoyearj",
+            "language": "en-US",
+            "title": "Young Adults and Transitioning Youth With Autism Spectrum Disorder",
+            "type": "article-journal"
         },
         {
             "DOI": "10.53053/POPK3874",
@@ -5530,6 +6127,40 @@
             "keyword": "Ableism,Culture,Diversity and inclusion,Neurodiversity,Workplace discrimination",
             "title": "Autism Doesn’t Hold People Back at Work. Discrimination Does.",
             "type": "article-journal"
+        },
+        {
+            "ISSN": "0017-8012",
+            "URL": "https://hbr.org/2021/12/autism-doesnt-hold-people-back-at-work-discrimination-does",
+            "abstract": "Did you know that an autistic professional is up to 140% more productive than an average employee when properly matched to a job that fits their skills? Yet, discrimination against neurodivergent people continues. That’s because most of the “common” workplace practices at the workplace are established for neurotypicality. While the onus to change this really lies with the organizations, the author offers a few strategies to help neurodivergent employees take control of their own success at work. First, know that your disclosure is your decision. When you own who you are, you may end up finding some allies or even inspire others to disclose their disability or identity. That said, don’t pressure yourself. If you’re not comfortable talking about your identity or the environment doesn’t feel conducive, take your time. Define what career success looks like for you. Your career path depends on your goals and priorities. Take the time to understand what you value, why you value it, and how you see those impacting your long-term growth. For undiagnosed or undisclosed autistics, job crafting may be an effective strategy for a sustainable work-life. Job crafting refers to changing some aspects of your tasks, mindset, and relationships to align with your strengths. Explore your purpose at work. For instance, joining Employee Resource Groups (ERGs) and committees focused on bringing people of specific identities or life circumstances together (e.g., culture, disability, caregiving) can help you share your ideas with like-minded and supportive colleagues. Finally, know that not all office politics are bad. While there may be toxic colleagues or situations pulling you down, you can learn to be your own ally.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Praslova",
+                    "given": "Ludmila N."
+                }
+            ],
+            "container-title": "Harvard Business Review",
+            "id": "Praslova2021a",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        12,
+                        13
+                    ]
+                ]
+            },
+            "keyword": "Ableism,Culture,Diversity and inclusion,Neurodiversity,Workplace discrimination",
+            "title": "Autism Doesn’t Hold People Back at Work. Discrimination Does.",
+            "type": "article-magazine"
         },
         {
             "ISSN": "0017-8012",
@@ -6663,6 +7294,61 @@
             "volume": "76"
         },
         {
+            "DOI": "10.1177/13623613211002047",
+            "ISSN": "1362-3613",
+            "PMCID": "PMC8814951",
+            "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8814951/",
+            "abstract": "Subtle language and communication difficulties are persistent and pervasive for autistic individuals without intellectual disability. They are thought to impact negatively on functionality, social interrelations and emotional well-being, although this relationship is under-explored in the literature. The personal accounts of autistic children could add valuable insight into how they experience subtle language and communication difficulties and what impact this has on their daily lives. In this study, 12 autistic children (9–14 years), without intellectual disability, were interviewed on this topic, using specially developed methods/materials to facilitate rich self-reporting. Results showed the children could provide detailed insight into their difficulties and the impact of these on key aspects of functionality (education and daily living) and social interrelations (including friendship building). They also demonstrated a potentially bi-directional relationship between subtle language and communication difficulties and negative emotions; with negative emotions limiting communicative competence and subtle linguistic difficulties leading to negative emotional responses. This study indicates the need for further investigation into the subtle difficulties experienced by autistic children without intellectual disability and its likely impact. Implications for clinical practice include the need for better identification of subtle language and communication difficulties and provision of appropriate therapeutic services which may help to ameliorate negative functional, social and emotional sequelae.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Sturrock",
+                    "given": "Alexandra"
+                },
+                {
+                    "family": "Chilton",
+                    "given": "Helen"
+                },
+                {
+                    "family": "Foy",
+                    "given": "Katie"
+                },
+                {
+                    "family": "Freed",
+                    "given": "Jenny"
+                },
+                {
+                    "family": "Adams",
+                    "given": "Catherine"
+                }
+            ],
+            "container-title": "Autism",
+            "container-title-short": "Autism",
+            "id": "Sturrock2022",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        2
+                    ]
+                ]
+            },
+            "page": "332-345",
+            "title": "In their own words: The impact of subtle language and communication difficulties as described by autistic girls and boys without intellectual disability",
+            "title-short": "In their own words",
+            "type": "article-journal",
+            "volume": "26"
+        },
+        {
             "DOI": "10.3949/ccjm.86a.18100",
             "ISSN": "0891-1150, 1939-2869",
             "abstract": "Children with autism spectrum disorder (ASD) eventually grow up and need to make the transition from pediatric services to adult. This is a diverse patient population.",
@@ -6811,6 +7497,49 @@
             "title": "A qualitative study of the service experiences of women with autism spectrum disorder",
             "type": "article-journal",
             "volume": "22"
+        },
+        {
+            "DOI": "10.1016/j.rasd.2013.12.002",
+            "URL": "https://doi.org/10.1016/j.rasd.2013.12.002",
+            "abstract": "Supporting: 10, Mentioning: 112 - A systematic review of social participation for adults with autism spectrum disorders: Support, social functioning, and quality of life - Tobin, Megan Colleen, Drager, Kathryn, Richardson, Laura",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Tobin",
+                    "given": "Megan Colleen"
+                },
+                {
+                    "family": "Drager",
+                    "given": "Kathryn"
+                },
+                {
+                    "family": "Richardson",
+                    "given": "Laura"
+                }
+            ],
+            "container-title": "Research in Autism Spectrum Disorders",
+            "id": "Tobin2014",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "title": "A systematic review of social participation for adults with autism spectrum disorders: Support, social functioning, and quality of life",
+            "title-short": "A systematic review of social participation for adults with autism spectrum disorders",
+            "type": "article-journal",
+            "volume": "8"
         },
         {
             "URL": "https://www.latimes.com/california/newsletter/2023-04-18/autism-awareness-really-is-growing-but-harmful-misconceptions-still-remain-group-therapy",
@@ -7404,6 +8133,28 @@
             "type": "webpage"
         },
         {
+            "URL": "https://policyimpactproject.org/transition-into-young-adulthood-full-report/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        3
+                    ]
+                ]
+            },
+            "id": "zotero-9022",
+            "language": "en-US",
+            "publisher": "Policy Impact Project",
+            "title": "Transition into Young Adulthood",
+            "type": "webpage"
+        },
+        {
+            "genre": "article",
+            "id": "zotero-9037",
+            "type": "article-journal"
+        },
+        {
             "URL": "https://scite.ai/reports/a-mixed-method-examination-how-zRmgrOVE?showReferences=true&utm_campaign=plugin&utm_medium=plugin&utm_source=generic",
             "accessed": {
                 "date-parts": [
@@ -7437,6 +8188,6 @@
         }
     ],
     "project_biblios": [
-        "aagu.bib"
+        "./aagu.bib"
     ]
 }

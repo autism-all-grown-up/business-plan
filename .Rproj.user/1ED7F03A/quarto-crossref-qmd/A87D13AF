@@ -3,9 +3,9 @@
         {
             "file": "executive_summary.qmd",
             "type": "sec",
-            "id": "ex_sum_background",
+            "id": "executive_summary",
             "suffix": "",
-            "title": "Background"
+            "title": "Executive Summary"
         },
         {
             "file": "executive_summary.qmd",
@@ -13,6 +13,13 @@
             "id": "ex_sum_goals",
             "suffix": "",
             "title": "Goals"
+        },
+        {
+            "file": "executive_summary.qmd",
+            "type": "sec",
+            "id": "ex_sum_background",
+            "suffix": "",
+            "title": "Background"
         },
         {
             "file": "executive_summary.qmd",
@@ -27,13 +34,6 @@
             "id": "ex_sum_nexus",
             "suffix": "",
             "title": "The Nexus Approach"
-        },
-        {
-            "file": "executive_summary.qmd",
-            "type": "sec",
-            "id": "executive_summary",
-            "suffix": "",
-            "title": "Executive Summary"
         }
     ]
 }

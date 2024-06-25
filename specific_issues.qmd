@@ -22,14 +22,14 @@ Despite the fact that advocates and researchers have been pushing for decades to
 
 ## Intersectionally Marginalized Groups {#sec-marginalized}
 
-All of these problems compound for members of intersectional populations who may already be marginalized along other dimensions. Many researchers believe that autism is [@Fombonne2022], particularly in Black communities [@Angell2018], as well as for [@DMello2022]. Meanwhile, fluidity in gender and sexual orientation [@George2018a, @George2018] is more highly represented among autistic people. Little research has been done to assess how autism uniquely affects people in these different subgroups.
+All of these problems compound for members of intersectional populations who may already be marginalized along other dimensions. Many researchers believe that autism is [@Fombonne2022], particularly in Black communities [@Angell2018], as well as for [@DMello2022]. Meanwhile, fluidity in gender and sexual orientation [@George2018a; @George2018] is more highly represented among autistic people. Little research has been done to assess how autism uniquely affects people in these different subgroups.
 
 ## Physical and Mental Health {#sec-physical_mental_health}
 
 -   Health and Well-being: Autistic adults experience higher rates of mental health issues, physical health disparities, and substantially elevated suicide risk \[<https://www.nature.com/articles/s41583-021-00463-7>, <https://pubmed.ncbi.nlm.nih.gov/33407027/>\].
 -   Social Isolation: Negative social experiences can lead to self-isolation, exacerbating feelings of loneliness and exclusion [@Loomes2017]
 
-Across a variety of health domains, autistic people fare worse [@LodiSmith2021, @LodiSmith2021a]. Additionally, we are exposed to risks that are not of primary concern for most people [@Muskens2017]. These include autoimmune dysregulation of many kinds, autonomic dysregulation, connective tissue disorders, gastrointestinal disorders, and many other areas of health concerns. A lack of understanding regarding these differences, coupled with communication barriers and false notions about autism all collude to create barriers to accessing health services and care.
+Across a variety of health domains, autistic people fare worse [@LodiSmith2021; @LodiSmith2021a]. Additionally, we are exposed to risks that are not of primary concern for most people [@Muskens2017]. These include autoimmune dysregulation of many kinds, autonomic dysregulation, connective tissue disorders, gastrointestinal disorders, and many other areas of health concern. A lack of understanding regarding these differences, coupled with communication barriers and false notions about autism all collude to create barriers to accessing health services and care.
 
 ## Unemployment {#sec-unemployment}
 
@@ -37,7 +37,7 @@ Across a variety of health domains, autistic people fare worse [@LodiSmith2021, 
 
 ## Homelessness {#sec-homelessness}
 
-Barriers to entry to the workplace as well as challenges and holding jobs due to ablest attitudes or inflexible policies put us at risk of severe financial strain [@Ohl2017]. This coupled with the possibility of reduced social support all increase our risk of exposure to homelessness. The few studies that attempted to investigate autism in homeless populations suggest that rates of autism in homeless populations is much higher than that observed in the general public, and may be ten times higher [@Churchard2019]. Autistic people additionally face extra barriers in accessing the few services for unhoused people. Environments created with the intention of providing support may be aversive or even harmful for autistic people [@Kargas2019].
+Barriers to entry to the workplace, as well as challenges and holding jobs due to ablest attitudes or inflexible policies, put us at risk of severe financial strain [@Ohl2017]. This, coupled with the possibility of reduced social support, increases our risk of exposure to homelessness. The few studies that attempted to investigate autism in homeless populations suggest that rates of autism in homeless populations are much higher than that observed in the general public and may be ten times higher [@Churchard2019]. Autistic people additionally face extra barriers in accessing the few services for unhoused people. Environments created with the intention of providing support may be aversive or even harmful for autistic people [@Kargas2019].
 
 ## Suicide {#sec-suicide}
 
