@@ -3,16 +3,9 @@
         {
             "file": "executive_summary.qmd",
             "type": "sec",
-            "id": "executive_summary",
+            "id": "ex_sum_background",
             "suffix": "",
-            "title": "Executive Summary"
-        },
-        {
-            "file": "executive_summary.qmd",
-            "type": "sec",
-            "id": "ex_name",
-            "suffix": "",
-            "title": "Autism All Grown Up"
+            "title": "Background"
         },
         {
             "file": "executive_summary.qmd",
@@ -24,9 +17,9 @@
         {
             "file": "executive_summary.qmd",
             "type": "sec",
-            "id": "ex_sum_background",
+            "id": "ex_name",
             "suffix": "",
-            "title": "Background"
+            "title": "Autism All Grown Up"
         },
         {
             "file": "executive_summary.qmd",
@@ -34,6 +27,13 @@
             "id": "ex_sum_nexus",
             "suffix": "",
             "title": "The Nexus Approach"
+        },
+        {
+            "file": "executive_summary.qmd",
+            "type": "sec",
+            "id": "executive_summary",
+            "suffix": "",
+            "title": "Executive Summary"
         }
     ]
 }

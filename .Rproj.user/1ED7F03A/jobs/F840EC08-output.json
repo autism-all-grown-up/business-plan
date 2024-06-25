@@ -22,3 +22,4 @@
 [1,"WARNING: connection closed before message completed\n"]
 [1,"'\\\\wsl.localhost\\Ubuntu\\home\\balter\\aagu_main_document'\r\nCMD.EXE was started with the above path as the current directory.\r\nUNC paths are not supported.  Defaulting to Windows directory.\r\n\n"]
 [1,"GET: /neurodiversity_and_neurodivergence.html\n"]
+[1,"ERROR: Unexpected error while scanning for file changes: The I/O operation has been aborted because of either a thread exit or an application request. (os error 995): stat '\\\\wsl.localhost\\Ubuntu\\home\\balter\\aagu_main_document\\lost_generations.qmd'\n"]
