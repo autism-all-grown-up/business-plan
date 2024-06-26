@@ -21,16 +21,16 @@ book:
     - funding.qmd
     - budget.qmd
   appendices:
-    - specific_issues.qmd
-    - glossary.qmd
-    - representitive_salaries.qmd
-    - potential_funders.qmd
-    - neurodiversity_and_neurodivergence.qmd
+  - specific_issues.qmd
+  - glossary.qmd
+  - representitive_salaries.qmd
+  - potential_funders.qmd
+  - neurodiversity_and_neurodivergence.qmd
   references: references.qmd
   sidebar:
     tools:
-      - icon: file-earmark-pdf
-        href: Autism-All-Grown-Up.pdf
+      # - icon: file-earmark-pdf
+      #   href: Autism-All-Grown-Up.pdf
       - icon: file-earmark-word
         href: Autism-All-Grown-Up.docx
     collapse-level: 4
@@ -38,20 +38,23 @@ book:
 format:
   html:
     theme: journal
-    output-dir: docs
     number-sections: false
     toc: true
     toc-depth: 2
-  pdf:
-    documentclass: scrreprt
-    number-sections: false
-    toc-title: "Contents"
-    toc: true
-    toc-depth: 2
+  # pdf:
+  #   documentclass: scrreprt
+  #   number-sections: false
+  #   toc-title: "Contents"
+  #   toc: true
+  #   toc-depth: 2
+  #   papersize: "letter"
+  #   margin: "1in"
   docx:
     number-sections: false
     toc-title: "Contents"
     toc: true
     toc-depth: 2
+    reference-doc: "styles/Autism-All-Grown-Up_template.dotx"
 
-editor: visual
+
+# editor: visual

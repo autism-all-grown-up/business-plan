@@ -2,9 +2,9 @@
 
 ## The New World of Autism
 
-Recent advancements in the understanding of autism, largely driven by autistic self-advocates and researchers, have highlighted the need for a paradigm shift in understanding, coexisting with, and when necessary, supporting autistic individuals. \<something about shift from behavioral description to internal\> \
+Recent advancements in the understanding of autism, largely driven by autistic self-advocates and researchers, have highlighted the need for a paradigm shift in understanding, coexisting with, and when necessary, supporting autistic individuals. \<something about shift from behavioral description to internal\>\
 \
-Key findings include [@ASAN2009; @Weiss2023]:
+Key findings include [@ASAN2009; @Weiss2023]: \<move these citations to where they belong\>
 
 -   **Lifelong Condition:**
 
@@ -53,3 +53,4 @@ Despite these challenges, many autistic adults possess valuable skills, talents,
 Autistic adults who are impacted more profoundly or who have accompanying intellectual or cognitive challenges are generally able to find support through systems of support designed for people with disabilities. However, autistic adults without intellectual disabilities often lack access to appropriate healthcare and support services, if they even exist. \<citation\>
 
 Autistic adults perceived as having lower support needs face a conundrum. While we rarely qualify for existing systems of support, most face significant challenges that are often overlooked, dismissed, or disbelieved. \<citation\>
+

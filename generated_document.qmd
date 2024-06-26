@@ -1,0 +1,456 @@
+---
+title: "Budget and Staffing Tables"
+format:
+  html
+  pdf
+---
+
+# Staffing and Budget Tables
+
+## Seed Phase
+### Staffing
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> x </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> &lt;table class=&quot;table table-striped table-hover table-condensed&quot; style=&quot;width: auto !important; margin-left: auto; margin-right: auto;&quot;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&quot;text-align:left;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Responsibility &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; FTE &lt;/th&gt;
+   &lt;th style=&quot;text-align:left;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Description &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Coworking space manager &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Research how coworking spaces run. Create a budget and game plan for initial set-up. Begin planning marketing and promotion. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Research support &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Collect and organize information. Writing. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Web Development &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Design and build website. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Organizing and Directing &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.75 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Implement business systems--payrol, formal job descriptions, insurance, etc. Hold regular meetings with select partner organizations and individuals. Solicit and apply for funding for Sprout phase. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;border-top: 1px solid black;border-bottom: 2px solid black;&quot;&gt; Total &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;border-bottom: 2px solid black;&quot;&gt; 1.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;border-top: 1px solid black;border-bottom: 2px solid black;&quot;&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt; </td>
+  </tr>
+</tbody>
+</table>
+
+### Budget
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> x </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> &lt;table class=&quot;table table-striped table-hover table-condensed&quot; style=&quot;width: auto !important; margin-left: auto; margin-right: auto;&quot;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&quot;text-align:left;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Responsibility &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; FTE &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Rate &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Weekly Rate &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Overhead &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Coworking space manager &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $30.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $7.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $0.75 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Organizing and Directing &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.75 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $40.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $30.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $3.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Research support &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $30.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $7.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $0.75 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Web Development &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $30.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $7.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $0.75 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;border-top: 1px solid black;&quot;&gt; Subtotals per week &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; 1.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; $0.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; $52.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; $5.25 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Total per week &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 1.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $0.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $57.75 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;border-bottom: 2px solid black;&quot;&gt; Total for 8 weeks &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; 1.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; $0.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; $462.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; $0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt; </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+## Sprout Phase
+### Staffing
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> x </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> &lt;table class=&quot;table table-striped table-hover table-condensed&quot; style=&quot;width: auto !important; margin-left: auto; margin-right: auto;&quot;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&quot;text-align:left;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Responsibility &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; FTE &lt;/th&gt;
+   &lt;th style=&quot;text-align:left;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Description &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Coworking space manager &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Research how coworking spaces run. Solicit community feedback. Run trails. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Data engineering &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Create databases. Research portal design. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Research support &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Collect and organize information. Writing. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Web Development &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Design and build website. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Organizing and Directing &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.75 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Complete current information product projects. Investigate access gaps. Locate resources. Continue building relationships. Oversee and participate in research on community resources and funding opportunities. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;border-top: 1px solid black;border-bottom: 2px solid black;&quot;&gt; Total &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;border-bottom: 2px solid black;&quot;&gt; 2.75 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;border-top: 1px solid black;border-bottom: 2px solid black;&quot;&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt; </td>
+  </tr>
+</tbody>
+</table>
+
+### Budget
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> x </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> &lt;table class=&quot;table table-striped table-hover table-condensed&quot; style=&quot;width: auto !important; margin-left: auto; margin-right: auto;&quot;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&quot;text-align:left;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Responsibility &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; FTE &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Rate &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Weekly Rate &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Overhead &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Coworking space manager &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $30.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $15.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $1.50 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Data engineering &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $45.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $22.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $2.25 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Organizing and Directing &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.75 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $50.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $37.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $3.75 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Research support &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $35.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $17.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $1.75 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Web Development &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $35.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $17.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $1.75 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;border-top: 1px solid black;&quot;&gt; Subtotals per week &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; 2.75 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; $0.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; $110.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; $11.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Total per week &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 2.75 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $0.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $121.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;border-bottom: 2px solid black;&quot;&gt; Total for 8 weeks &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; 2.75 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; $0.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; $968.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; $0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt; </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+## Grow Phase
+### Staffing
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> x </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> &lt;table class=&quot;table table-striped table-hover table-condensed&quot; style=&quot;width: auto !important; margin-left: auto; margin-right: auto;&quot;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&quot;text-align:left;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Responsibility &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; FTE &lt;/th&gt;
+   &lt;th style=&quot;text-align:left;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Description &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Jr. Data management &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.20 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Collect data. Enter data. Basic reporting. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Web Development &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Maintain website. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Data engineering &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.30 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Maintain databases and portal. Assist with analysis and reporting. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Coworking space attendant &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Oversee operation. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Research and analysis &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Perform analysis and generate reports. Lead grant-writing efforts. Be responsible for obtaining necessary approvals, meeting all grant requirements, and submitting on time. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Research support (Jr.) &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Locate resources. Collect and organize information. Conduct surveys. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Coworking space manager &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 1.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Determine best practices. Maintain the physical space. Set and enforce policies. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Organizing and Directing &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 1.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Seek out partners and funding opportunities. Work with stakeholders to define contract requirements. Direct grant writing. Meet regularly with partner organizations and individuals. &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;border-top: 1px solid black;border-bottom: 2px solid black;&quot;&gt; Total &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;border-bottom: 2px solid black;&quot;&gt; 4.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;border-top: 1px solid black;border-bottom: 2px solid black;&quot;&gt;  &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt; </td>
+  </tr>
+</tbody>
+</table>
+
+### Budget
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> x </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> &lt;table class=&quot;table table-striped table-hover table-condensed&quot; style=&quot;width: auto !important; margin-left: auto; margin-right: auto;&quot;&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style=&quot;text-align:left;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Responsibility &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; FTE &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Rate &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Weekly Rate &lt;/th&gt;
+   &lt;th style=&quot;text-align:right;font-weight: bold;background-color: lightgrey !important;text-align: center;&quot;&gt; Overhead &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Coworking space attendant &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $25.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $12.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $1.25 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Coworking space manager &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 1.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $40.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $40.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $4.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Data engineering &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.30 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $50.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $15.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $1.50 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Jr. Data management &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.20 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $30.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $6.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $0.60 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Organizing and Directing &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 1.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $65.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $65.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $6.50 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Research and analysis &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $45.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $22.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $2.25 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Research support (Jr.) &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $25.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $12.50 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $1.25 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Web Development &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 0.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $45.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $11.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $1.12 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;border-top: 1px solid black;&quot;&gt; Subtotals per week &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; 4.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; $0.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; $184.75 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-top: 1px solid black;&quot;&gt; $18.48 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; Total per week &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; 4.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $0.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $203.22 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;&quot;&gt; $0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;border-bottom: 2px solid black;&quot;&gt; Total for 8 weeks &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; 4.25 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; $0.00 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; $1,625.80 &lt;/td&gt;
+   &lt;td style=&quot;text-align:right;border-bottom: 2px solid black;&quot;&gt; $0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt; </td>
+  </tr>
+</tbody>
+</table>
+
+
+

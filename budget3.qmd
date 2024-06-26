@@ -1,0 +1,246 @@
+# Budget {#sec-budget}
+
+```{r, include=F, warning=FALSE, message=FALSE}
+library(tidyverse)
+source('utilities/format_budget_table.R')
+source('utilities/format_staffing_table.R')
+
+data <- read_csv('data/jobs_data.csv') %>% 
+  tibble()
+
+```
+
+Autism All Grown Up will place a strong emphasis on hiring autistic and neurodiverse Oregon adults and paying them a market wage. The wages will be at the low end during the initial Seed and Sprout phases and increase during the later phases. The hourly rates shown represent full compensation on a 1099 and do not include benefits. We will make necessary adjustments when we are able to provide benefits as well.
+
+We have created our budget estimate based on the minimum staffing we believe can meet our performance goals combined with market-rate salary estimates from [ZipRecruiter](https://www.ziprecruiter.com/Salaries) for approximate job titles in the Portland, OR area (see @sec-representative-salaries). We project a budget of approximately \$150,000 for the first six months (26 weeks) of operation.
+
+```{r, include=F, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(kableExtra)
+
+data <- read_csv('data/jobs_data.csv') %>% 
+  tibble()
+
+output_format <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+output_format <- ifelse(is.null(output_format), "normal", output_format)
+```
+
+## Seed Phase
+
+```{r, warning=FALSE, message=FALSE, echo = F}
+n_weeks = 8
+overhead = 0.1
+
+seed_budget = 
+  data %>% 
+  filter(Phase == "seed") %>% 
+  arrange(FTE) %>% 
+  select(Responsibility, Description, FTE, Rate) %>% 
+  
+  ### Add weekly cost per employee and overhead
+  mutate(
+    `Weekly Rate` = FTE * Rate * 40,
+    Overhead = `Weekly Rate` * overhead
+  ) %>% 
+  
+  ### Create rows for totals
+  rbind(
+    
+    ### Simple sum 
+    summarize(., 
+      Responsibility = "Subtotal per Week",
+      Description = "",
+      FTE = sum(FTE),
+      Rate = NA,
+      `Weekly Rate` = sum(`Weekly Rate`),
+      Overhead = sum(Overhead)
+    ),
+    
+    ### Add overhead and weekly rate
+    summarize(., 
+      Responsibility = "Total per Week",
+      Description = "",
+      FTE = sum(FTE),
+      Rate = NA,
+      `Weekly Rate` = sum(`Weekly Rate`)*(1 + overhead),
+      Overhead = NA
+    ),
+    
+    ### Multiply by number of weeks
+    summarize(., 
+      Responsibility = str_glue("Total for {n_weeks} Weeks"),
+      Description = "",
+      FTE = NA,
+      Rate = NA,
+      `Weekly Rate` = sum(`Weekly Rate`)*(1 + overhead)*n_weeks,
+      Overhead = NA
+    )
+  )
+
+# Replace NA values in numeric columns with zero and non-numeric columns with empty strings
+seed_budget <- seed_budget %>%
+  mutate(across(where(is.numeric), ~ replace_na(., 0))) %>%
+  mutate(across(where(is.character), ~ replace_na(., "")))
+
+# Determine output format
+output_format <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+output_format <- ifelse(is.null(output_format), "html", output_format)
+
+# Create the kable table with appropriate format
+if (output_format == "html") {
+  seed_budget_table <- kable(
+    seed_budget, 
+    format = "html", 
+    col.names = c("Responsibility", "Description", "FTE", "Rate", "Weekly Rate", "Overhead"),
+    align = c("l", "l", "r", "r", "r", "r"),
+    escape = FALSE
+  ) %>%
+    kable_styling(
+      bootstrap_options = c("hover", "condensed"),
+      full_width = FALSE
+    ) %>%
+    column_spec(1, width = "15%") %>%
+    column_spec(2, width = "25%") %>%
+    column_spec(3, width = "10%") %>%
+    column_spec(4, width = "10%") %>%
+    column_spec(5, width = "10%") %>%
+    column_spec(6, width = "10%")
+} else {
+  seed_budget_table <- kable(
+    seed_budget, 
+    format = "latex", 
+    col.names = c("Responsibility", "Description", "FTE", "Rate", "Weekly Rate", "Overhead"),
+    align = c("l", "l", "r", "r", "r", "r"),
+    booktabs = TRUE,
+    escape = FALSE
+  ) %>%
+    kable_styling(
+      latex_options = c("hold_position"),
+      full_width = FALSE
+    ) %>%
+    column_spec(1, width = "5em") %>%
+    column_spec(2, width = "12em") %>%
+    column_spec(3, width = "5em") %>%
+    column_spec(4, width = "5em") %>%
+    column_spec(5, width = "5em") %>%
+    column_spec(6, width = "5em")
+}
+
+# Print the table
+seed_budget_table
+```
+
+
+```
+
+n_weeks = 8
+overhead = 0.1
+
+seed_budget = 
+  data %>% 
+  filter(Phase == "seed") %>% 
+  arrange(FTE) %>% 
+  select(Responsibility, Description, FTE, Rate) %>% 
+  
+  ### Add weekly cost per employee and overhead
+  mutate(
+    `Weekly Rate` = FTE * Rate * 40,
+    Overhead = `Weekly Rate` * overhead
+  ) %>% 
+  
+  ### Create rows for totals
+  rbind(
+    
+    ### Simple sum 
+    summarize(., 
+      Responsibility = "Subtotal per Week",
+      Description = "",
+      FTE = sum(FTE),
+      Rate = NA,
+      `Weekly Rate` = sum(`Weekly Rate`),
+      Overhead = sum(Overhead)
+    ),
+    
+    ### Add overhead and weekly rate
+    summarize(., 
+      Responsibility = "Total per Week",
+      Description = "",
+      FTE = sum(FTE),
+      Rate = NA,
+      `Weekly Rate` = sum(`Weekly Rate`)*(1 + overhead),
+      Overhead = NA
+    ),
+    
+    ### Multiply by number of weeks
+    summarize(., 
+      Responsibility = str_glue("Total for {n_weeks} Weeks"),
+      Description = "",
+      FTE = NA,
+      Rate = NA,
+      `Weekly Rate` = sum(`Weekly Rate`)*(1 + overhead)*n_weeks,
+      Overhead = NA
+    )
+  )
+
+# Replace NA values in numeric columns with zero and non-numeric columns with empty strings
+seed_budget <- seed_budget %>%
+  mutate(across(where(is.numeric), ~ replace_na(., 0))) %>%
+  mutate(across(where(is.character), ~ replace_na(., "")))
+
+# Determine output format
+output_format <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+output_format = ifelse(is.null(output_format), "html", output_format)
+
+# Create the kable table
+if (output_format == "latex") {
+  seed_budget_table <- kable(
+    seed_budget, 
+    format = "latex", 
+    col.names = c("Responsibility", "Description", "FTE", "Rate", "Weekly Rate", "Overhead"),
+    align = c("l", "l", "r", "r", "r", "r"),
+    booktabs = TRUE,
+    escape = FALSE,
+    longtable = TRUE
+  ) %>%
+    kable_styling(
+      latex_options = c("scale_down"),
+      font_size = 8,
+      full_width = FALSE
+    ) %>%
+    # column_spec(1, width = "5em") %>%
+    # column_spec(2, width = "12em") %>%
+    # column_spec(3, width = "5em") %>%
+    # column_spec(4, width = "5em") %>%
+    # column_spec(5, width = "5em") %>%
+    # column_spec(6, width = "5em")
+    column_spec(1, width = "1.25in") %>%
+    column_spec(2, width = "2in") %>%
+    column_spec(3, width = "0.5in") %>%
+    column_spec(4, width = "0.5in") %>%
+    column_spec(5, width = "0.75in") %>%
+    column_spec(6, width = "0.75in") %>% 
+    row_spec(0, font_size = 10)
+} else {
+  seed_budget_table <- kable(
+    seed_budget, 
+    format = "html", 
+    col.names = c("Responsibility", "Description", "FTE", "Rate", "Weekly Rate", "Overhead"),
+    align = c("l", "l", "r", "r", "r", "r"),
+    escape = FALSE
+  ) %>%
+    kable_styling(
+      bootstrap_options = c("hover", "condensed"),
+      full_width = FALSE
+    ) %>%
+    column_spec(1, width = "10%") %>%
+    column_spec(2, width = "30%") %>%
+    column_spec(3, width = "10%") %>%
+    column_spec(4, width = "10%") %>%
+    column_spec(5, width = "10%") %>%
+    column_spec(6, width = "10%")
+}
+
+# Print the table
+seed_budget_table
+```
+

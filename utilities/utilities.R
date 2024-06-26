@@ -38,3 +38,57 @@ text <- "Check out this website: https://www.dol.gov/sites/dolgov/files/OWCP/ene
 get_page_title("https://www.dol.gov/sites/dolgov/files/OWCP/energy/regs/compliance/Outreach/Outreach_Presentation/lmn_mba06222022.pdf")
 new_text <- replace_urls_with_md(text)
 print(new_text)
+
+
+calculateBudgetSummary = function(data, phase, overhead, n_weeks)
+{
+
+  budget =
+    data %>%
+    filter(Phase == !!phase) %>%
+    arrange(FTE) %>%
+    select(Responsibility, Description, FTE, Rate) %>%
+
+    ### Add weekly cost per employee and overhead
+    mutate(
+      `Weekly Rate` = FTE * Rate * 40,
+      Overhead = `Weekly Rate` * overhead
+    ) %>%
+
+    ### Create rows for totals
+    rbind(
+
+      ### Simple sum
+      summarize(.,
+                Responsibility = "Subtotal per Week",
+                Description = "",
+                FTE = sum(FTE),
+                Rate = NA,
+                `Weekly Rate` = sum(`Weekly Rate`),
+                Overhead = sum(Overhead)
+      ),
+
+      ### Add overhead and weekly rate
+      summarize(.,
+                Responsibility = "Total per Week",
+                Description = "",
+                FTE = sum(FTE),
+                Rate = NA,
+                `Weekly Rate` = sum(`Weekly Rate`)*(1 + overhead),
+                Overhead = NA
+      ),
+
+      ### Multiply by number of weeks
+      summarize(.,
+                Responsibility = str_glue("Total for {n_weeks} Weeks"),
+                Description = "",
+                FTE = NA,
+                Rate = NA,
+                `Weekly Rate` = sum(`Weekly Rate`)*(1 + overhead)*n_weeks,
+                Overhead = NA
+      )
+    )
+
+  return(budget)
+
+}
