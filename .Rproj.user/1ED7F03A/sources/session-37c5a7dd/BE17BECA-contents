@@ -1,0 +1,112 @@
+library(gt)
+library(tidyverse)
+library(scales)
+
+formatBudgetTable <- function(data, output_format) {
+  data <- tibble(data) %>%
+    mutate(
+      `Weekly Total` = FTE * Rate * 40,
+      Overhead = `Weekly Total` * 0.1
+    )
+
+  # Adding subtotal and total rows
+  subtotal <- data %>%
+    summarize(
+      Responsibility = "Subtotal per week",
+      FTE = sum(FTE),
+      Rate = NA,
+      `Weekly Total` = sum(`Weekly Total`),
+      Overhead = sum(Overhead)
+    )
+
+  total_per_week <- subtotal %>%
+    mutate(
+      Responsibility = "Total per week",
+      `Weekly Total` = `Weekly Total` + Overhead
+    )
+
+  total_for_8_weeks <- total_per_week %>%
+    mutate(Responsibility = "Total for 8 weeks", `Weekly Total` = 8 * `Weekly Total`, Overhead = NA)
+
+  final_data <- bind_rows(
+    data,
+    tibble(Responsibility = "Totals", FTE = NA, Rate = NA, `Weekly Total` = NA, Overhead = NA),
+    subtotal,
+    total_per_week,
+    total_for_8_weeks
+  )
+
+  # Format columns
+  final_data <- final_data %>%
+    mutate(
+      Rate = ifelse(is.na(Rate), NA, dollar(Rate)),
+      `Weekly Total` = ifelse(is.na(`Weekly Total`), NA, dollar(`Weekly Total`)),
+      Overhead = ifelse(is.na(Overhead), NA, dollar(Overhead))
+    )
+
+  # Create gt table
+  gt_table <- final_data %>%
+    gt() %>%
+    # Style header
+    tab_header(
+      title = md("**Budget Table**")
+    ) %>%
+    tab_style(
+      style = list(
+        cell_fill(color = "grey"),
+        cell_text(weight = "bold", size = px(12))
+      ),
+      locations = cells_title(groups = "title")
+    ) %>%
+    # Style body
+    tab_style(
+      style = cell_text(weight = "bold"),
+      locations = cells_body(columns = vars(Responsibility))
+    ) %>%
+    tab_style(
+      style = cell_text(size = px(10)),
+      locations = cells_body()
+    ) %>%
+    tab_style(
+      style = cell_text(align = "right"),
+      locations = cells_body(columns = vars(FTE, Rate, `Weekly Total`, Overhead))
+    ) %>%
+    tab_style(
+      style = cell_text(align = "right"),
+      locations = cells_column_labels(columns = vars(FTE, Rate, `Weekly Total`, Overhead))
+    ) %>%
+    # Borders
+    tab_style(
+      style = cell_borders(sides = "all", color = "black", weight = px(1)),
+      locations = cells_body()
+    ) %>%
+    tab_style(
+      style = cell_borders(sides = "bottom", color = "black", weight = px(2)),
+      locations = cells_body(rows = c(nrow(final_data) - 3, nrow(final_data) - 2, nrow(final_data) - 1, nrow(final_data)))
+    ) %>%
+    # Style custom row
+    tab_style(
+      style = cell_fill(color = "lightgrey"),
+      locations = cells_body(rows = nrow(data) + 1)
+    ) %>%
+    tab_style(
+      style = cell_borders(sides = "all", color = "white", weight = px(0)),
+      locations = cells_body(rows = nrow(data) + 1)
+    ) %>%
+    # Autofit columns
+    cols_width(
+      vars(Responsibility) ~ px(200),
+      vars(FTE, Rate, `Weekly Total`, Overhead) ~ px(100)
+    ) %>%
+    # Format missing values
+    fmt_missing(
+      columns = everything(),
+      missing_text = ""
+    )
+
+  if (output_format == "html") {
+    return(as_raw_html(gt_table))
+  } else if (output_format == "latex") {
+    return(as_latex(gt_table))
+  }
+}

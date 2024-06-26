@@ -1,0 +1,42 @@
+project:
+  type: book
+
+book:
+  title: "Autism All Grown Up"
+  subtitle: "The Autism Nexus of Oregon"
+  author: "Ariel Balter"
+  date: now
+  chapters:
+    - index.qmd
+    - mission.qmd
+    - executive_summary.qmd
+    - autism_2024.qmd
+    - the_lost_generations.qmd
+    - oregon.qmd
+    - autism_all_grown_up.qmd
+    - funding.qmd
+    - budget.qmd
+  appendices:
+    - glossary.qmd
+    - representitive_salaries.qmd
+    - potential_funders.qmd
+    - neurodiversity_and_neurodivergence.qmd
+
+bibliography: aagu/aagu.bib
+
+format:
+  html:
+    theme: litera
+    output-dir: docs
+    number-sections: true
+    toc: true
+    number-depth: 2
+  pdf:
+    documentclass: scrreprt
+    number-sections: true
+    number-depth: 2
+    toc-title: "Contents"
+    toc: true
+    toc-depth: 2
+
+editor: visual

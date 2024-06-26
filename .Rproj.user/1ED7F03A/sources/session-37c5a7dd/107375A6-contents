@@ -1,0 +1,42 @@
+---
+title: "Some Page"
+format: 
+  html: default
+  pdf: default
+  docx: default
+---
+
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+
+library(tidyverse)
+library(flextable)
+knitr::opts_knit$set(output.dir = "./")
+data = data.frame(
+  year = c(2021, 2022, 2023),
+  budget = c("$100", "$200", "$300"),
+  profit = c("$100", "$200", "$300")
+)
+```
+
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+#| output: asis
+
+for (year in data$year)
+{
+  cat(str_glue("## Year: {year}\n"))
+  ft <- data |>
+    filter(year == year) |>
+    flextable()
+  
+  flextable_to_rmd(ft)
+  cat("\n\n")
+}
+```

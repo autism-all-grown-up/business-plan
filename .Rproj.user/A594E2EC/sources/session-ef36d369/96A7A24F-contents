@@ -1,0 +1,108 @@
+# Budget {#sec-budget}
+
+```{r, include=F, warning=FALSE, message=FALSE}
+library(tidyverse)
+# library(knitr)
+# library(kableExtra)
+library(flextable)
+source('utilities/utilities.R')
+
+data <- read_csv('data/jobs_data.csv') %>% 
+  tibble()
+
+kable_format = switch(
+  ifelse(
+    is.null(knitr::opts_knit$get("rmarkdown.pandoc.to")), 
+    "interactive", 
+    knitr::opts_knit$get("rmarkdown.pandoc.to")
+  ),
+  "html" = "html",
+  "docx" = "pipe",
+  "latex" = "latex",
+  "interactive" = "markdown"
+)
+
+```
+
+
+The kable format is: `r kable_format`
+
+Autism All Grown Up will place a strong emphasis on hiring autistic and neurodiverse Oregon adults and paying them a market wage. The wages will be at the low end during the initial Seed and Sprout phases and increase during the later phases. The hourly rates shown represent full compensation on a 1099 and do not include benefits. We will make necessary adjustments when we are able to provide benefits as well.
+
+We have created our budget estimate based on the minimum staffing we believe can meet our performance goals combined with market-rate salary estimates from [ZipRecruiter](https://www.ziprecruiter.com/Salaries) for approximate job titles in the Portland, OR area (see @sec-representative-salaries). We project a budget of approximately \$150,000 for the first six months (26 weeks) of operation.
+
+## Seed Phase
+
+```{r, warning=FALSE, message=FALSE, echo = F}
+phase = "seed"
+
+budget_data = budget_data = calculateBudgetSummary(
+  data,
+  phase = phase,
+  overhead = 0.1,
+  n_weeks = 8
+)
+
+# Create the flextable
+budget_table <- flextable(budget_data) %>%
+  set_caption(caption = str_glue("{str_to_title(phase)} Phase Budget")) %>%
+    set_table_properties(width = 1, layout = "autofit") %>%    width(j = 1, width = 1.5) %>%
+    width(j = 2, width = 2.5) %>%
+    width(j = 3, width = 1) %>%
+    width(j = 4, width = 1) %>%
+  theme_box()
+
+# Print the table
+budget_table
+```
+
+## Sprout Phase
+
+```{r, warning=FALSE, message=FALSE, echo = F}
+phase = "sprout"
+
+budget_data = budget_data = calculateBudgetSummary(
+  data,
+  phase = phase,
+  overhead = 0.1,
+  n_weeks = 8
+)
+
+# Create the flextable
+budget_table <- flextable(budget_data) %>%
+  set_caption(caption = str_glue("{str_to_title(phase)} Phase Budget")) %>%
+    set_table_properties(width = 1, layout = "autofit") %>%    width(j = 1, width = 1.5) %>%
+    width(j = 2, width = 2.5) %>%
+    width(j = 3, width = 1) %>%
+    width(j = 4, width = 1) %>%
+  theme_box()
+
+# Print the table
+budget_table
+```
+
+## Grow Phase
+
+```{r, warning=FALSE, message=FALSE, echo = F}
+phase = "grow"
+
+budget_data = budget_data = calculateBudgetSummary(
+  data,
+  phase = phase,
+  overhead = 0.1,
+  n_weeks = 8
+)
+
+# Create the flextable
+budget_table <- flextable(budget_data) %>%
+  set_caption(caption = str_glue("{str_to_title(phase)} Phase Budget")) %>%
+    set_table_properties(width = 1, layout = "autofit") %>%    width(j = 1, width = 1.5) %>%
+    width(j = 2, width = 2.5) %>%
+    width(j = 3, width = 1) %>%
+    width(j = 4, width = 1) %>%
+  theme_box()
+
+# Print the table
+budget_table
+```
+

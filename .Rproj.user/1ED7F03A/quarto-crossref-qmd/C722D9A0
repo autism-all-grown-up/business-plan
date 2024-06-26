@@ -1,0 +1,25 @@
+{
+    "entries": [
+        {
+            "file": "autism_2024.qmd",
+            "type": "fig",
+            "id": "autism-spectrum",
+            "suffix": "",
+            "title": "Figure 1. What the autism spectrum means."
+        },
+        {
+            "file": "autism_2024.qmd",
+            "type": "sec",
+            "id": "autism2024_lost_gen",
+            "suffix": "",
+            "title": "Lost Generations of Autistic Adults"
+        },
+        {
+            "file": "autism_2024.qmd",
+            "type": "sec",
+            "id": "autism2024",
+            "suffix": "",
+            "title": "Autism in 2024"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "hash": "33da7d65584ff68437164433d295e28a",
+  "result": {
+    "markdown": "# Budget {#budget}\n\n\n\n\n\n\n\nAutism All Grown Up will place a strong emphasis on hiring autistic and neurodiverse Oregon adults and paying them a market wage. The wages will be at the low end during the initial Seed and Sprout phases and increase during the later phases. The hourly rates shown represent full compensation on a 1099 and do not include benefits. We will make necessary adjustments when we are able to provide benefits as well.\n\nWe have created our budget estimate based on the minimum staffing we believe can meet our performance goals combined with market-rate salary estimates from \\[ZipRecruiter\\] (https://www.ziprecruiter.com/Salaries) for approximate job titles in the Portland, OR area (see @appendix-representative-salaries). We project a budget of approximately \\$150,000 for the first six months (26 weeks) of operation.\n\n\n\n## Heading for year seed \n\n### Staffing\n\n\n### Budget\na flextable object.\ncol_keys: `Responsibility`, `FTE`, `Rate`, `Total` \nheader has 1 row(s) \nbody has 4 row(s) \noriginal dataset sample: \n            Responsibility  FTE Rate Total\n1  Coworking space manager 0.25   30   7.5\n2         Research support 0.25   30   7.5\n3          Web Development 0.25   30   7.5\n4 Organizing and Directing 0.75   40  30.0\n\n\n## Heading for year sprout \n\n### Staffing\n\n\n### Budget\na flextable object.\ncol_keys: `Responsibility`, `FTE`, `Rate`, `Total` \nheader has 1 row(s) \nbody has 5 row(s) \noriginal dataset sample: \n            Responsibility  FTE Rate Total\n1  Coworking space manager 0.50   30  15.0\n2         Data engineering 0.50   45  22.5\n3         Research support 0.50   35  17.5\n4          Web Development 0.50   35  17.5\n5 Organizing and Directing 0.75   50  37.5\n\n\n## Heading for year grow \n\n### Staffing\n\n\n### Budget\na flextable object.\ncol_keys: `Responsibility`, `FTE`, `Rate`, `Total` \nheader has 1 row(s) \nbody has 8 row(s) \noriginal dataset sample: \n             Responsibility  FTE Rate Total\n1       Jr. Data management 0.20   30  6.00\n2           Web Development 0.25   45 11.25\n3          Data engineering 0.30   50 15.00\n4 Coworking space attendant 0.50   25 12.50\n5     Research and analysis 0.50   45 22.50\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

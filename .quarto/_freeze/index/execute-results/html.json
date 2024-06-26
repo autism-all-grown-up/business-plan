@@ -1,0 +1,15 @@
+{
+  "hash": "1a373044e265e3ca55f6140b0ff5ee84",
+  "result": {
+    "engine": "knitr",
+    "markdown": "![](./media/image4.png){width=\"3.0989588801399823in\" height=\"3.0592279090113736in\"}\n\n\n::: {.cell}\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

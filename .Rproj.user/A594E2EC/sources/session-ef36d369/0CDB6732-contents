@@ -1,0 +1,46 @@
+# Representative Salaries {#sec-representative-salaries}
+
+```{r, include=F}
+library(tidyverse)
+library(flextable)
+
+# Sample data
+data <- tibble::tribble(
+            ~role,     ~Earner.Class, ~Annual.Salary, ~Monthly.Pay, ~Weekly.Pay, ~Hourly.Wage,
+   "Data Analyst",     "Top Earners",  "$127,790.00", "$10,649.00", "$2,458.00",     "$61.00",
+   "Data Analyst", "75th Percentile",  "$102,900.00",  "$8,575.00", "$1,979.00",     "$49.00",
+   "Data Analyst",         "Average",   "$87,640.00",  "$7,303.00", "$1,685.00",     "$42.00",
+   "Data Analyst", "25th Percentile",   "$66,300.00",  "$5,525.00", "$1,275.00",     "$32.00",
+  "Data Engineer",     "Top Earners",  "$171,801.00", "$14,316.00", "$3,303.00",     "$83.00",
+  "Data Engineer", "75th Percentile",  "$145,800.00", "$12,150.00", "$2,803.00",     "$70.00",
+  "Data Engineer",         "Average",  "$138,279.00", "$11,523.00", "$2,659.00",     "$66.00",
+  "Data Engineer", "25th Percentile",  "$121,400.00", "$10,116.00", "$2,334.00",     "$58.00"
+  )
+
+data = read_csv("data/salaries.csv") %>% rename(`Earner Class` = earner_class)
+
+roles <- data$role %>% unique() %>% sort()
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, results="asis"}
+for (role in roles) {
+  role_title <- str_to_title(role)
+  
+  # Print the heading
+  cat("\n\n## ", role_title, "\n\n")
+  
+  salaries <- data %>%
+    filter(role == !!role) %>%
+    select(-role)
+  
+  table <- 
+    salaries %>% 
+    flextable() %>%
+    set_caption(caption = role_title) %>%
+    autofit() %>%
+    theme_box()
+  
+  # Render the table with caption
+  flextable::flextable_to_rmd(table)
+}
+```

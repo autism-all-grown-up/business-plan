@@ -1,0 +1,78 @@
+{
+  "another-combined.qmd": {
+    "another-combined.html": "a0c0f893",
+    "another-combined.docx": "c2225ca7"
+  },
+  "index.qmd": {
+    "index.html": "9a4717d3"
+  },
+  "mission.qmd": {
+    "mission.html": "622617ef"
+  },
+  "executive_summary.qmd": {
+    "executive_summary.html": "cbd04c7a"
+  },
+  "lost_generations.qmd": {
+    "lost_generations.html": "212209d0"
+  },
+  "autism_all_grown_up.qmd": {
+    "autism_all_grown_up.html": "b5bca323"
+  },
+  "sidebars.qmd": {
+    "sidebars.html": "c9dcc04f"
+  },
+  "references.qmd": {
+    "references.html": "a7c77e82"
+  },
+  "funding.qmd": {
+    "funding.html": "ab3f2d0b"
+  },
+  "budget.qmd": {
+    "budget.html": "07a8589b"
+  },
+  "specific_issues.qmd": {
+    "specific_issues.html": "4e77340d"
+  },
+  "glossary.qmd": {
+    "glossary.html": "673ac1cf"
+  },
+  "representitive_salaries.qmd": {
+    "representitive_salaries.html": "708239ea"
+  },
+  "potential_funders.qmd": {
+    "potential_funders.html": "4a6260d3"
+  },
+  "neurodiversity_and_neurodivergence.qmd": {
+    "neurodiversity_and_neurodivergence.html": "d7731e08"
+  },
+  "potential_funders2.qmd": {
+    "potential_funders2.html": "586eeb1d"
+  },
+  "glossary2.qmd": {
+    "glossary2.html": "ab2a2c6a"
+  },
+  "budget2.qmd": {
+    "budget2.html": "1b1f353d"
+  },
+  "budget3.qmd": {
+    "budget3.html": "74b165cc"
+  },
+  "glossary3.qmd": {
+    "glossary3.html": "ae049a3f"
+  },
+  "potential_funders3.qmd": {
+    "potential_funders3.html": "3ada5bbf"
+  },
+  "representitive_salaries2.qmd": {
+    "representitive_salaries2.html": "1c41ee44"
+  },
+  "budget4.qmd": {
+    "budget4.html": "f241e1fe"
+  },
+  "autism_2024.qmd": {
+    "autism_2024.html": "47ac4ed6"
+  },
+  "budget_test.qmd": {
+    "budget_test.html": "760ba434"
+  }
+}

@@ -1,0 +1,31 @@
+# Representative Salaries {#sec-representative-salaries}
+
+```{r, include=F}
+library(tidyverse)
+library(flextable)
+add_latex_dep(float = FALSE, wrapfig = FALSE)
+
+set_flextable_defaults(
+  post_process_html = autofit,
+  post_process_pdf = autofit,
+  post_process_docx = autofit
+)
+
+data = read_csv("data/salaries.csv") %>% rename(`Earner Class` = earner_class)
+roles = data$role %>% unique() %>% sort()
+```
+
+```{r, results="asis", echo=F}
+for (role in roles)
+{
+  cat("<br>\n\n## ", str_to_title(role), "\n\n")
+  
+  data %>% 
+    filter(role == !!role) %>% 
+    select(-role) %>% 
+    flextable() %>% 
+    flextable_to_rmd()
+}
+
+```
+

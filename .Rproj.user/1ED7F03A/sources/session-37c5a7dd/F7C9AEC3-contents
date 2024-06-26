@@ -1,0 +1,122 @@
+```{r, include=F}
+library(gt)
+library(tidyverse)
+library(scales)
+```
+
+
+```{r setup, include=FALSE}
+# Output format detection
+output_format <- knitr::opts_knit$get("rmarkdown.pandoc.to")
+output_format <- ifelse(is.null(output_format), "html", output_format)
+```
+
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+#| output: asisf
+
+library(gt)
+library(tidyverse)
+library(scales)
+library(glue)
+
+formatBudgetTable <- function(data, output_format) {
+  data <- tibble(data) %>%
+    mutate(
+      `Weekly Total` = FTE * Rate * 40,
+      Overhead = `Weekly Total` * 0.1
+    )
+
+  # Adding subtotal and total rows
+  subtotal <- data %>%
+    summarize(
+      Responsibility = "Subtotal per week",
+      FTE = sum(FTE),
+      Rate = NA,
+      `Weekly Total` = sum(`Weekly Total`),
+      Overhead = sum(Overhead)
+    )
+
+  total_per_week <- subtotal %>%
+    mutate(
+      Responsibility = "Total per week",
+      `Weekly Total` = `Weekly Total` + Overhead
+    )
+
+  total_for_8_weeks <- total_per_week %>%
+    mutate(Responsibility = "Total for 8 weeks", `Weekly Total` = 8 * `Weekly Total`, Overhead = NA)
+
+  final_data <- bind_rows(
+    data,
+    tibble(Responsibility = "Totals", FTE = NA, Rate = NA, `Weekly Total` = NA, Overhead = NA),
+    subtotal,
+    total_per_week,
+    total_for_8_weeks
+  )
+
+  # Format columns
+  final_data <- final_data %>%
+    mutate(
+      Rate = ifelse(is.na(Rate), NA, dollar(Rate)),
+      `Weekly Total` = ifelse(is.na(`Weekly Total`), NA, dollar(`Weekly Total`)),
+      Overhead = ifelse(is.na(Overhead), NA, dollar(Overhead))
+    )
+
+  # Create gt table
+  gt_table <- final_data %>%
+    gt() %>%
+    sub_missing(
+      columns = everything(),
+      missing_text = ""
+    )
+
+  if (output_format == "html") {
+    return(as_raw_html(gt_table))
+  } else if (output_format == "latex") {
+    return(as_latex(gt_table))
+  }
+}
+
+# Sample data
+data <- tibble(
+  Phase = rep(c("seed", "sprout", "grow"), each = 5),
+  Responsibility = rep(c("Manager", "Developer", "Designer", "Tester", "Analyst"), 3),
+  FTE = rep(c(1.0, 0.5, 0.75, 0.25, 0.6), 3),
+  Rate = rep(c(50, 40, 45, 35, 42), 3),
+  Description = rep(c("Manage", "Develop", "Design", "Test", "Analyze"), 3)
+)
+
+data = 
+  read_csv('data/jobs_data.csv') %>% 
+  tibble()
+
+for (phase in c("seed", "sprout", "grow")) {
+  cat(str_glue("## {str_to_title(phase)}\n\n"))
+  
+  cat("### Staffing\n")
+  staffing <- data %>%
+    filter(Phase == phase) %>%
+    arrange(FTE) %>%
+    select(Responsibility, FTE, Description) %>%
+    gt()
+  
+  if (output_format == "html") {
+    cat(as_raw_html(staffing))
+  } else if (output_format == "latex") {
+    cat(as_latex(staffing))
+  }
+  
+  cat("### Labor Cost\n")
+  budget <- data %>%
+    filter(Phase == phase) %>%
+    arrange(FTE) %>%
+    select(Responsibility, FTE, Rate)
+  
+  cat(formatBudgetTable(budget, output_format))
+  
+  cat("\n\n")
+}
+```

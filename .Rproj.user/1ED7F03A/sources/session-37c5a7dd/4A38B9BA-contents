@@ -1,0 +1,42 @@
+---
+title: "Minimal Example with Glossary"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+# Load necessary libraries
+library(tidyverse)
+library(flextable)
+```
+
+# Glossary
+
+This section provides definitions for terms used in this document.
+
+```{r, echo=F}
+# Create sample data
+glossary <- data.frame(
+  Term = c("ADLs", "Alexithymia", "Asperger's Syndrome"),
+  Definition = c(
+    "Activities of Daily Living: Basic personal activities essential for health and safety.",
+    "The inability to recognize or describe feelings.",
+    "A part of autism spectrum disorder characterized by difficulty in social interaction."
+  )
+)
+
+# Create a flextable object
+ft_glossary <- flextable(glossary) %>%
+  theme_booktabs() %>%
+  bold(part = "header") %>%
+  fontsize(size = 12, part = "header") %>%
+  font(part = "header", fontname = "Times") %>%
+  bg(part = "header", bg = "grey") %>%
+  fontsize(size = 10, part = "body") %>%
+  font(part = "body", fontname = "Arial") %>%
+  width(j = 1, width = 2.5, unit = "in") %>%
+  width(j = 2, width = 5.5, unit = "in") %>%
+  valign(valign = "top", part = "all")
+
+# Print the flextable object
+ft_glossary
+```
