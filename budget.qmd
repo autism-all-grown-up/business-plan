@@ -90,7 +90,7 @@ budget_data = budget_data = calculateBudgetSummary(
   data,
   phase = phase,
   overhead = 0.1,
-  n_weeks = 8
+  n_weeks = 18
 )
 
 # Create the flextable
