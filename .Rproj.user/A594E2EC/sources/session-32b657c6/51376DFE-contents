@@ -1,0 +1,60 @@
+project:
+  type: book
+
+# Global options
+bibliography: "./aagu.bib"
+csl: "https://www.zotero.org/styles/ama"
+link-citations: true
+cite-method: citeproc
+
+book:
+  title: "Autism All Grown Up"
+  subtitle: "The Autism Nexus of Oregon"
+  author: "Ariel Balter"
+  date: now
+  chapters:
+    - index.qmd
+    - mission.qmd
+    - executive_summary.qmd
+    - autism_2024.qmd
+    - autism_all_grown_up.qmd
+    - funding.qmd
+    - budget.qmd
+  appendices:
+  - specific_issues.qmd
+  - glossary.qmd
+  - representitive_salaries.qmd
+  - potential_funders.qmd
+  - neurodiversity_and_neurodivergence.qmd
+  references: references.qmd
+  sidebar:
+    tools:
+      - icon: file-earmark-pdf
+        href: Autism-All-Grown-Up.pdf
+      - icon: file-earmark-word
+        href: Autism-All-Grown-Up.docx
+    collapse-level: 4
+
+format:
+  html:
+    theme: journal
+    number-sections: false
+    toc: true
+    toc-depth: 2
+  # pdf:
+  #   documentclass: scrreprt
+  #   number-sections: false
+  #   toc-title: "Contents"
+  #   toc: true
+  #   toc-depth: 2
+  #   papersize: "letter"
+  #   margin: "1in"
+  docx:
+    number-sections: false
+    toc-title: "Contents"
+    toc: true
+    toc-depth: 2
+    reference-doc: "styles/Autism-All-Grown-Up_template.dotx"
+
+
+# editor: visual
