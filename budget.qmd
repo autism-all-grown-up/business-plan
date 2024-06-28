@@ -6,6 +6,11 @@ library(tidyverse)
 # library(kableExtra)
 library(flextable)
 source('utilities/utilities.R')
+set_flextable_defaults(
+  post_process_html = autofit,
+  post_process_pdf = autofit,
+  post_process_docx = autofit
+  )
 
 data <- read_csv('data/jobs_data.csv') %>% 
   tibble()
@@ -44,13 +49,51 @@ budget_data = budget_data = calculateBudgetSummary(
 )
 
 # Create the flextable
-budget_table <- flextable(budget_data) %>%
+budget_table =
+  flextable(budget_data) %>%
   set_caption(caption = str_glue("{str_to_title(phase)} Phase Budget")) %>%
-    set_table_properties(width = 1, layout = "autofit") %>%    width(j = 1, width = 1.5) %>%
-    width(j = 2, width = 2.5) %>%
-    width(j = 3, width = 1) %>%
-    width(j = 4, width = 1) %>%
-  theme_box()
+  set_table_properties(width = 1, layout = "autofit") %>%
+  width(j = 1, width = 1.5) %>%
+  width(j = 2, width = 2.5) %>%
+  width(j = 3, width = 1) %>%
+  width(j = 4, width = 1) %>%
+  theme_box() %>%
+  colformat_double(
+    j = "FTE",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = ""
+  ) %>%
+  colformat_double(
+    j = "Rate",
+    big.mark = ",",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = "$",
+    digits = 2
+  ) %>%
+  colformat_double(
+    j = "Weekly Rate",
+    big.mark = ",",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = "$",
+    digits = 2
+  ) %>%
+  colformat_double(
+    j = "Overhead",
+    big.mark = ",",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = "$",
+    digits = 2
+  ) %>% 
+  bold(i = (nrow(budget_data) - 2):nrow(budget_data), bold = TRUE) %>% 
+  bg(i = (nrow(budget_data) - 2):nrow(budget_data), bg = "#eeeeee")
 
 # Print the table
 budget_table
@@ -69,13 +112,51 @@ budget_data = budget_data = calculateBudgetSummary(
 )
 
 # Create the flextable
-budget_table <- flextable(budget_data) %>%
+budget_table =
+  flextable(budget_data) %>%
   set_caption(caption = str_glue("{str_to_title(phase)} Phase Budget")) %>%
-    set_table_properties(width = 1, layout = "autofit") %>%    width(j = 1, width = 1.5) %>%
-    width(j = 2, width = 2.5) %>%
-    width(j = 3, width = 1) %>%
-    width(j = 4, width = 1) %>%
-  theme_box()
+  set_table_properties(width = 1, layout = "autofit") %>%
+  width(j = 1, width = 1.5) %>%
+  width(j = 2, width = 2.5) %>%
+  width(j = 3, width = 1) %>%
+  width(j = 4, width = 1) %>%
+  theme_box() %>%
+  colformat_double(
+    j = "FTE",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = ""
+  ) %>%
+  colformat_double(
+    j = "Rate",
+    big.mark = ",",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = "$",
+    digits = 2
+  ) %>%
+  colformat_double(
+    j = "Weekly Rate",
+    big.mark = ",",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = "$",
+    digits = 2
+  ) %>%
+  colformat_double(
+    j = "Overhead",
+    big.mark = ",",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = "$",
+    digits = 2
+  ) %>% 
+  bold(i = (nrow(budget_data) - 2):nrow(budget_data), bold = TRUE) %>% 
+  bg(i = (nrow(budget_data) - 2):nrow(budget_data), bg = "#eeeeee")
 
 # Print the table
 budget_table
@@ -94,14 +175,51 @@ budget_data = budget_data = calculateBudgetSummary(
 )
 
 # Create the flextable
-budget_table <- flextable(budget_data) %>%
+budget_table =
+  flextable(budget_data) %>%
   set_caption(caption = str_glue("{str_to_title(phase)} Phase Budget")) %>%
-    set_table_properties(width = 1, layout = "autofit") %>%    width(j = 1, width = 1.5) %>%
-    width(j = 2, width = 2.5) %>%
-    width(j = 3, width = 1) %>%
-    width(j = 4, width = 1) %>%
-  theme_box()
-
+  set_table_properties(width = 1, layout = "autofit") %>%
+  width(j = 1, width = 1.5) %>%
+  width(j = 2, width = 2.5) %>%
+  width(j = 3, width = 1) %>%
+  width(j = 4, width = 1) %>%
+  theme_box() %>%
+  colformat_double(
+    j = "FTE",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = ""
+  ) %>%
+  colformat_double(
+    j = "Rate",
+    big.mark = ",",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = "$",
+    digits = 2
+  ) %>%
+  colformat_double(
+    j = "Weekly Rate",
+    big.mark = ",",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = "$",
+    digits = 2
+  ) %>%
+  colformat_double(
+    j = "Overhead",
+    big.mark = ",",
+    decimal.mark = ".",
+    na_str = "",
+    nan_str = "",
+    prefix = "$",
+    digits = 2
+  ) %>% 
+  bold(i = (nrow(budget_data) - 2):nrow(budget_data), bold = TRUE) %>% 
+  bg(i = (nrow(budget_data) - 2):nrow(budget_data), bg = "#eeeeee")
 # Print the table
 budget_table
 ```

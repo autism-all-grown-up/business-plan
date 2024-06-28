@@ -93,7 +93,7 @@ Our growth plan consists of three phases:
 
 **2. Sprout (Weeks 9-26)**
 
--   **Budget:** `sprout_per_week`/week, `r sprout_total` total
+-   **Budget:** `r sprout_per_week`/week, `r sprout_total` total
 -   **Effort:** 2.75 FTE
 -   **Actions:**
     -   Continue building community connections
