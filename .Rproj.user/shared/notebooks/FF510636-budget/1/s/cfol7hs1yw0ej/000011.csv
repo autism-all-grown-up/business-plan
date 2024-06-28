@@ -1,0 +1,6 @@
+"0","budget_table =
+  budget_data %>%
+  flextable(budget_data) 
+"
+"2","Error in min(j) : invalid 'type' (list) of argument
+"
