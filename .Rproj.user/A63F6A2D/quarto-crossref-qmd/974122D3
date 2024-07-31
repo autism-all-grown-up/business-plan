@@ -1,0 +1,67 @@
+{
+    "entries": [
+        {
+            "file": "specific_issues.qmd",
+            "type": "sec",
+            "id": "training_for_providers",
+            "suffix": "",
+            "title": "Medical Training"
+        },
+        {
+            "file": "specific_issues.qmd",
+            "type": "sec",
+            "id": "research_funding_providers",
+            "suffix": "",
+            "title": "Autism Research Funding Priorities"
+        },
+        {
+            "file": "specific_issues.qmd",
+            "type": "sec",
+            "id": "access_to_care",
+            "suffix": "",
+            "title": "Access to Medical Care"
+        },
+        {
+            "file": "specific_issues.qmd",
+            "type": "sec",
+            "id": "homelessness",
+            "suffix": "",
+            "title": "Homelessness"
+        },
+        {
+            "file": "specific_issues.qmd",
+            "type": "sec",
+            "id": "unemployment",
+            "suffix": "",
+            "title": "Unemployment"
+        },
+        {
+            "file": "specific_issues.qmd",
+            "type": "sec",
+            "id": "physical_mental_health",
+            "suffix": "",
+            "title": "Physical and Mental Health"
+        },
+        {
+            "file": "specific_issues.qmd",
+            "type": "sec",
+            "id": "marginalized",
+            "suffix": "",
+            "title": "Intersectionally Marginalized Groups"
+        },
+        {
+            "file": "specific_issues.qmd",
+            "type": "sec",
+            "id": "services_cliff",
+            "suffix": "",
+            "title": "The Services Cliff"
+        },
+        {
+            "file": "specific_issues.qmd",
+            "type": "sec",
+            "id": "suicide",
+            "suffix": "",
+            "title": "Suicide"
+        }
+    ]
+}

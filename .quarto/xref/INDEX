@@ -1,0 +1,41 @@
+{
+  "index.qmd": {
+    "index.html": "6b398368"
+  },
+  "mission.qmd": {
+    "mission.html": "59eb2ef7"
+  },
+  "executive_summary.qmd": {
+    "executive_summary.html": "df3ec622"
+  },
+  "autism_2024.qmd": {
+    "autism_2024.html": "adbaf8dd"
+  },
+  "autism_all_grown_up.qmd": {
+    "autism_all_grown_up.html": "cc06eca1"
+  },
+  "funding.qmd": {
+    "funding.html": "c7973c33"
+  },
+  "budget.qmd": {
+    "budget.html": "21725a59"
+  },
+  "references.qmd": {
+    "references.html": "64c58355"
+  },
+  "specific_issues.qmd": {
+    "specific_issues.html": "8112118f"
+  },
+  "glossary.qmd": {
+    "glossary.html": "d077c94a"
+  },
+  "representitive_salaries.qmd": {
+    "representitive_salaries.html": "c9541fc1"
+  },
+  "potential_funders.qmd": {
+    "potential_funders.html": "5716b212"
+  },
+  "neurodiversity_and_neurodivergence.qmd": {
+    "neurodiversity_and_neurodivergence.html": "c04f2c4d"
+  }
+}
