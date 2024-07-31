@@ -21,7 +21,6 @@ book:
     - funding.qmd
     - budget.qmd
   appendices:
-  - specific_issues.qmd
   - glossary.qmd
   - representitive_salaries.qmd
   - potential_funders.qmd
