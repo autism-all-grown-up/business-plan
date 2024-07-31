@@ -6,7 +6,7 @@ Many people find [[this article]{.underline}](https://neuroqueer.com/neurodivers
 
 **Definition:** Neurodiversity is the idea that neurological differences, like autism, ADHD, dyslexia, and others, are natural variations of the human genome. This concept emphasizes that these differences should be recognized and respected as a part of human diversity.
 
-**Historical and Social Context:** The term "neurodiversity" was coined in the late 1990s by sociologist Judy Singer. It arose from the disability rights movement and the autistic rights movement, which sought to challenge the medical model of disability that views neurological differences as deficits or disorders to be cured. Instead, neurodiversity advocates promote acceptance and understanding, emphasizing the strengths and contributions of neurodivergent individuals.
+**Historical and Social Context:** The term "neurodiversity" is closely associated with Judy Singer who popularized it in the late 1990s @Singer1998. (There is some current disputation about who invented the concept and/or coined the term @Botha2024.) It arose from the disability rights movement and the autistic rights movement, which sought to challenge the medical model of disability that views neurological differences as deficits or disorders to be cured @Silberman2015. Instead, neurodiversity advocates promote acceptance and understanding, emphasizing the strengths and contributions of neurodivergent individuals [@Armstrong2010; @Kapp2013].
 
 ## Neurodiversity (paradigm)
 
@@ -38,12 +38,3 @@ Many people find [[this article]{.underline}](https://neuroqueer.com/neurodivers
 
 **Historical and Social Context:** The term "neurotypical" originated within the neurodiversity community as a way to distinguish between those who conform to societal norms of neurological functioning and those who do not. It highlights that "typical" neurological functioning is not the only valid or acceptable way of being, promoting a more inclusive view of human diversity.
 
-### **References**
-
-> 1\. Singer, J. (1998). **Odd People In: The Birth of Community Amongst People on the 'Autistic Spectrum'**. Honours Thesis, University of Technology, Sydney.
->
-> 2\. Silberman, S. (2015). **NeuroTribes: The Legacy of Autism and the Future of Neurodiversity**. Avery.
->
-> 3\. Armstrong, T. (2010). **Neurodiversity: Discovering the Extraordinary Gifts of Autism, ADHD, Dyslexia, and Other Brain Differences**. Da Capo Lifelong Books.
->
-> 4\. Kapp, S. K., et al. (2013). **Deficit, Difference, or Both? Autism and Neurodiversity**. Developmental Psychology, 49(1), 59--71.

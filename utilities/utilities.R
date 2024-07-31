@@ -34,10 +34,10 @@ replace_urls_with_md <- function(text) {
 }
 
 # Example usage
-text <- "Check out this website: https://www.dol.gov/sites/dolgov/files/OWCP/energy/regs/compliance/Outreach/Outreach_Presentation/lmn_mba06222022.pdf."
-get_page_title("https://www.dol.gov/sites/dolgov/files/OWCP/energy/regs/compliance/Outreach/Outreach_Presentation/lmn_mba06222022.pdf")
-new_text <- replace_urls_with_md(text)
-print(new_text)
+#text <- "Check out this website: https://www.dol.gov/sites/dolgov/files/OWCP/energy/regs/compliance/Outreach/Outreach_Presentation/lmn_mba06222022.pdf."
+#get_page_title("https://www.dol.gov/sites/dolgov/files/OWCP/energy/regs/compliance/Outreach/Outreach_Presentation/lmn_mba06222022.pdf")
+#new_text <- replace_urls_with_md(text)
+#print(new_text)
 
 
 calculateBudgetSummary = function(data, phase, overhead, n_weeks)
