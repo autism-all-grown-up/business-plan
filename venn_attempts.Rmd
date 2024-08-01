@@ -1,0 +1,659 @@
+---
+title: "Autisitic Adults in Oregon"
+output: html_notebook
+---
+
+The Oregon Department of Disability Services (ODDS) reported that the agency was serving 22,984 adults with an intellectual or developmental disability in 2023. A 2021-2022 survey by ODDS and along with the National Core Indicatargetrs (NCI) project showed that 6,435 (28%) of Oregon adults receiving I/DD services had an Autism diagnosis. The US Census estimates that in 2022 there were roughly 3,404,221 adults (18+) in Oregon. A CDC study (2020) estimated that in 2017, 2.28% (95% CI [1.83, 2.8]) of Oregon adults had Autism; in numbers: 77,616 (95% CI [62,297, 95,318]). (Numbers courtesy of Jon Saitarget, Oregon Council on Autism Spectrum Disorder)
+
+Census Bureau: https://data.census.gov/table/ACSST1Y2022.S0101?q=oregon%20population%20by%20age
+
+>=18 3407770
+
+ODDS 2023: https://olis.oregonlegislature.gov/liz/2023R1/Downloads/CommitteeMeetingDocument/260382
+
+22,755 adults
+
+
+https://acl.gov/iddcounts
+
+
+CDC Report prevalence of autism in Oregon https://stacks.cdc.gov/view/cdc/119183
+2.28%
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
+
+# Raw Data
+```{r}
+us_census_or_18_plus = 3407770
+cdc_pct_autisitc_adults = list(number=2.23, low_95_ci=1.83, high_95_ci=2.8)
+or_adults_idd = 22755
+or_adults_idd_pct_autistic = 28
+or_adults_idd_autistic = 6435 ### 28%
+```
+
+
+
+```{r}
+csv_data="
+Category,Number,low,high
+Adults Receiving I/DD Service,22984,NA,NA
+Autistic Adults Receiving I/DD Services,6435,NA,NA
+Autistic Adults,77616,62297,95318
+"
+
+data =
+  tibble(
+    category = c(
+      "Adults Receiving I/DD Service",
+      "Autistic Adults Receiving I/DD Services",
+      "Adults",
+      "Autistic Adults (CDC estimate)"
+    ),
+    number = c(
+      22984,
+      6435,
+      us_census_or_18_plus,
+      us_census_or_18_plus*cdc_pct_autisitc_adults$number/100
+    ),
+    low = c(
+      NA, NA, NA,
+      us_census_or_18_plus*cdc_pct_autisitc_adults$low_95_ci/100
+    ),
+    high = c(
+      NA, NA, NA,
+      us_census_or_18_plus*cdc_pct_autisitc_adults$high_95_ci/100
+    ),
+    color = c("#E66100", "#D5A6BD", "#E1BE6A", "#40B0A6")
+  ) %>%
+  mutate(number = round(number))
+
+data %>% filter(category != "Adults") %>%
+  ggplot(aes(x=category, y=number, fill=color)) +
+  geom_bar(stat = "identity") +
+  scale_x_discrete(limit=rev(c("Autistic Adults (CDC estimate)", "Adults Receiving I/DD Service", "Autistic Adults Receiving I/DD Services"))) +
+  geom_errorbar(
+    aes(x=category, ymin=low, ymax=high),
+    width=0.2, color="black",
+    size=1
+  ) +
+  geom_text(aes(label = number), hjust = -0.2, vjust=-0.5, color="black") +
+  labs(y="Population", x=NULL) +
+  theme(
+    legend.position = "none",
+    axis.text.y = element_text(size=12, face="bold"), # Adjust font size and font-weight for y-axis labels
+    axis.title.y = element_text(size=12, face="bold") # Optionally, adjust font size and font-weight for y-axis title
+  ) +
+  coord_flip()
+
+
+custom_colors = c(
+  "Adults Receiving I/DD Service" = "#E66100",
+  "Autistic Adults Receiving I/DD Services" = "#D5A6BD",
+  "Adults" = "#E1BE6A",
+  "Autistic Adults (CDC estimate)" = "#40B0A6"
+)
+
+```
+
+
+https://acl.gov/grants/open-opportunities
+https://acl.gov/iddcounts
+https://legacy.nationalcoreindicatargetrs.org/upload/core-indicatargetrs/OR_IPS_state_508.pdf
+https://www.advancingstates.org/
+
+```{r}
+N_adults = us_census_or_18_plus
+# N_adults = 1000
+N_autistic = round(N_adults*cdc_pct_autisitc_adults$number/100)
+N_receiving_idd = round(N_adults*or_adults_idd/us_census_or_18_plus)
+N_receiving_idd_autistic = round(N_receiving_idd*or_adults_idd_pct_autistic/100)
+N_receiving_idd_not_autistic = N_receiving_idd - N_receiving_idd_autistic
+
+adults = 1:N_adults
+autistic = sample(adults, N_autistic, replace=F)
+not_autistic = setdiff(adults, autistic)
+receiving_idd_not_autistic = sample(not_autistic, N_receiving_idd_not_autistic, replace=F)
+receiving_idd_autistic = sample(autistic, N_receiving_idd_autistic, replace=F)
+receiving_idd = c(receiving_idd_autistic, receiving_idd_not_autistic)
+
+data = list(
+  adults = adults,
+  autisitc = autistic,
+  receiving_idd = receiving_idd,
+  receiving_idd_autistic = receiving_idd_autistic
+)
+
+library(grid)
+library(VennDiagram)
+# library(cowplot)
+
+
+overrideTriple = TRUE
+vd = draw.triple.venn(
+    area1=N_adults, area2=N_autistic, area3=N_receiving_idd,
+    n12=N_autistic, n23=N_receiving_idd_autistic, n13=N_receiving_idd,
+    n123=N_receiving_idd_autistic,
+    category=c("Adults in Oregon","Autistic","Receiving I/DD Services"),
+    col="Black",fill=c("White","Red","Yellow"),
+    cex=3, cat.cex=2,
+    euler.d=TRUE, scaled=TRUE
+  )
+grid.newpage()
+grid.draw(vd)
+```
+
+```{r}
+N_people = 12
+N_orgs = 5
+
+items = tibble(
+  item = str_glue("item_{1:(N_people + N_orgs)}"),
+  type = c(rep("person", N_people), rep("org", N_orgs)),
+)
+
+edges = tibble(source = character(), target = character())
+N_people_connections = 6
+N_org_connections = 2
+N_org_people_connections = 5
+
+ids = items$item
+people = items %>% filter(type=="person") %>% pull(item)
+orgs = items %>% filter(type=="org") %>% pull(item)
+
+for (i in 1:N_people_connections)
+{
+  person_1 = sample(people, 1)
+  person_2 = sample(setdiff(people, person_1), 1)
+  print(str_glue("person 1: {person_1}, person 2: {person_2}"))
+  edges =
+    edges %>%
+    add_row(source=person_1, target=person_2)
+}
+
+for (i in 1:N_org_connections)
+{
+  org_1 = sample(orgs, 1)
+  org_2 = sample(setdiff(orgs, org_1), 1)
+  print(str_glue("org 1: {org_1}, org 2: {org_2}"))
+  edges =
+    edges %>%
+    add_row(source=org_1, target=org_2)
+}
+
+for (i in 1:N_org_people_connections)
+{
+  item_1 = sample(orgs, 1)
+  item_2 = sample(people, 1)
+  print(str_glue("item 1: {item_1}, item 2: {item_2}"))
+  edges =
+    edges %>%
+    add_row(source=item_1, target=item_2)
+}
+```
+
+```{r}
+library(igraph)
+
+items = read_csv("items.csv")
+edges = read_csv("edges.csv")
+
+g = graph_from_data_frame(
+  d = edges,
+  vertices = items,
+  directed = FALSE
+)
+
+V(g)$type <- items$type[match(V(g)$name, items$item)]
+
+library('png')
+
+person_img <- readPNG("person.png")
+org_img <- readPNG("building2.png")
+
+# Assign raster attributes to nodes
+V(g)$raster <- lapply(V(g)$type, function(x) if (x == "person") person_img else org_img)
+
+plot(g,
+  vertex.shape="raster",
+  # vertex.label=type,
+  vertex.size=10,
+  vertex.size2=10,
+  edge.width=5
+)
+
+
+# node_colors <- ifelse(V(g)$type == "person", "blue", "red")
+#
+# plot(g,
+#   vertex.color = node_colors,
+#   vertex.size = 20,
+#   vertex.label.color = "black",
+#   vertex.label.cex = 0.8,
+#   main = "Network Visualization"
+# )
+
+```
+
+```{r}
+
+# Create the items table
+items <- tibble(
+  item = c("item_1", "item_2", "item_3", "item_4"),
+  type = c("person", "org", "person", "org")
+)
+
+# Create the edges table
+edges <- tibble(
+  from = c("item_1", "item_2", "item_3"),
+  to = c("item_2", "item_3", "item_4")
+)
+
+# Convert to data frames for igraph
+items_df <- as.data.frame(items)
+edges_df <- as.data.frame(edges)
+
+g <- graph_from_data_frame(d = edges_df, vertices = items_df, directed = FALSE)
+
+# Add node attributes (type)
+V(g)$type <- items_df$type[match(V(g)$name, items_df$item)]
+
+# Define shapes for node types
+node_shapes <- ifelse(V(g)$type == "person", "square", "circle")
+
+# Define colors for node types
+node_colors <- ifelse(V(g)$type == "person", "blue", "red")
+
+# Plot the network with built-in shapes
+plot(g, vertex.shape = node_shapes, vertex.color = node_colors, vertex.size = 20, vertex.label.color = "black",
+     vertex.label.cex = 0.8, main = "Network Visualization with Built-in Shapes")
+
+```
+```{r}
+counts = c(
+  A = 100,
+  B = 20,
+  C = 10,
+  "A&B" = 20,
+  "A&C" = 10,
+  "B&C" = 3,
+  "A&B&C" = 3
+)
+
+N_adults = us_census_or_18_plus
+# N_adults = 1000
+N_autistic = round(N_adults*cdc_pct_autisitc_adults$number/100)
+N_receiving_idd = round(N_adults*or_adults_idd/us_census_or_18_plus)
+N_receiving_idd_autistic = round(N_receiving_idd*or_adults_idd_pct_autistic/100)
+N_receiving_idd_not_autistic = N_receiving_idd - N_receiving_idd_autistic
+
+counts = c(
+  "Adults" = N_adults,
+  "Autistic" = N_autistic,
+  "Receiving I/DD" = N_receiving_idd,
+  "Adults&Autistic" = N_autistic,
+  "Adults&Receiving I/DD" = N_receiving_idd,
+  "Autistic&Receiving I/DD" = N_receiving_idd_autistic,
+  "Adults&Autistic&Receiving I/DD" = N_receiving_idd_autistic
+)
+
+library(eulerr)
+
+counts = c(
+  "Adults" = 3407770,
+  "Autistic" = 75993,
+  "Receiving I/DD" = 22755,
+  "Adults&Autistic" = 75993,
+  "Adults&Receiving I/DD" = 22755,
+  "Autistic&Receiving I/DD" = 6371,
+  "Adults&Autistic&Receiving I/DD" = 6371
+)
+
+plot(
+  x = euler(counts, input="union", shape="ellipse"),
+  quantities = T,
+  legend = list(
+    labels = list(
+      str_glue("Adults: {N_adults}"),
+      str_glue("Autistic: {N_autistic}"),
+      str_glue("Receiving I/DD: {N_receiving_idd}")
+    ),
+    col="black",
+    font=10
+  ),
+  labels = F,
+  adjust_labels = T,
+  main = "Oregon Autistic Adults and Receiving I/DD",
+  fills = list("#e1be6a", "#40B0A6", "#E66100")
+)
+
+# Create the Euler diagram
+fit <- euler(counts, input="union", shape="ellipse")
+
+# Plot the Euler diagram with specified parameters
+plot(
+  x = fit,
+  quantities = list(fontfamily = "Helvetica"), # Set font for quantities
+  legend = list(
+    labels = c(
+      str_glue("Adults: {counts['Adults']}"),
+      str_glue("Autistic: {counts['Autistic']}"),
+      str_glue("Receiving I/DD: {counts['Receiving I/DD']}"),
+      str_glue("Autistic&Receiving I/DD: {counts['Autistic&Receiving I/DD']}")
+    ),
+    col = "black",
+    font = 10,
+    fontfamily = "Helvetica" # Set font for legend
+  ),
+  fills = c("#e1be6a", "#40B0A6", "#E66100"), # Apply fill colors
+  labels = F,
+  adjust_labels = T,
+  main = list(
+    label = "Oregon Autistic Adults and Receiving I/DD",
+    fontfamily = "Times New Roman" # Set font for title
+  )
+)
+
+# Add custom legend separately for fine control
+legend("topright", legend = c(
+  str_glue("Adults: {counts['Adults']}"),
+  str_glue("Autistic: {counts['Autistic']}"),
+  str_glue("Receiving I/DD: {counts['Receiving I/DD']}"),
+  str_glue("Autistic&Receiving I/DD: {counts['Autistic&Receiving I/DD']}")
+), fill = c("#e1be6a", "#40B0A6", "#E66100"), bty = "n", cex = 0.8,
+       text.font = 2, text.col = "black", inset = 0.05,
+       text.family = "Helvetica") # Set font for custom legend
+```
+
+
+```{r}
+library(tidyverse)
+library(eulerr)
+library(sysfonts)
+library(showtext)
+library(systemfonts)
+
+font_add("Times New Roman", regular = "C:/Windows/Fonts/times.ttf")
+font_add("Helvetica", regular = "C:/Windows/Fonts/arial.ttf") # Use Arial as a substitute for Helvetica
+
+# Enable showtext for text rendering
+showtext_auto()
+
+
+
+counts = c(
+  "Adults" = 3407770,
+  "Autistic" = 75993,
+  "Receiving I/DD" = 22755,
+  "Adults&Autistic" = 75993,
+  "Adults&Receiving I/DD" = 22755,
+  "Autistic&Receiving I/DD" = 6371,
+  "Adults&Autistic&Receiving I/DD" = 6371
+)
+
+# Create the Euler diagram
+fit <- euler(counts, input="union", shape="ellipse")
+# Define custom colors for sets and intersections
+custom_colors <- c(
+  "Adults" = "#e1be6a",
+  "Autistic" = "#40B0A6",
+  "Receiving I/DD" = "#E66100",
+  "Adults&Autistic" = "#A1C4A6",       # Custom color for Adults & Autistic intersection
+  "Adults&Receiving I/DD" = "#F4A582",  # Custom color for Adults & Receiving I/DD intersection
+  "Autistic&Receiving I/DD" = "#92C5DE", # Custom color for Autistic & Receiving I/DD intersection
+  "Adults&Autistic&Receiving I/DD" = "#D5A6BD" # Custom color for the triple intersection
+)
+```
+
+
+```{r}
+library(tidyverse)
+library(eulerr)
+library(sysfonts)
+library(showtext)
+library(systemfonts)
+
+# Load fonts
+font_add("Times New Roman", regular = "C:/Windows/Fonts/times.ttf", bold = "C:/Windows/Fonts/timesbd.ttf")
+font_add("Helvetica", regular = "C:/Windows/Fonts/arial.ttf", bold = "C:/Windows/Fonts/arialbd.ttf") # Substitute Arial for Helvetica
+showtext_auto()
+
+# Define counts for the Euler diagram
+counts = c(
+  "Adults" = 3407770,
+  "Autistic" = 75993,
+  "Receiving I/DD" = 22755,
+  "Adults&Autistic" = 75993,
+  "Adults&Receiving I/DD" = 22755,
+  "Autistic&Receiving I/DD" = 6371,
+  "Adults&Autistic&Receiving I/DD" = 6371
+)
+
+# Create the Euler diagram
+fit <- euler(counts, input = "union", shape = "ellipse")
+
+# Define custom colors for sets and intersections
+custom_colors <- c(
+  "Adults" = "#e1be6a",
+  "Autistic" = "#40B0A6",
+  "Receiving I/DD" = "#E66100",
+  "Adults&Autistic" = "#A1C4A6",       # Custom color for Adults & Autistic intersection
+  "Adults&Receiving I/DD" = "#F4A582",  # Custom color for Adults & Receiving I/DD intersection
+  "Autistic&Receiving I/DD" = "#92C5DE", # Custom color for Autistic & Receiving I/DD intersection
+  "Adults&Autistic&Receiving I/DD" = "#D5A6BD" # Custom color for the triple intersection
+)
+
+plot.new()
+# Plot the Euler diagram with specified parameters
+plot(
+  x = fit,
+  # quantities = list(fontfamily = "Helvetica"), # Set font for quantities
+  fills = custom_colors,
+  labels = F,
+  main = list(
+    label = "Oregon Autistic Adults and Receiving I/DD",
+    fontfamily = "Helvetica", # Set font for title
+    fontsize = 12
+  )
+)
+
+# Set font family for the legend
+par(family = "Helvetica")
+# par(mar = c(5, 4, 6, 2))  # bottom, left, top, right
+
+legend_strings = map(
+    names(counts)[c(1,2,3,5)],
+    ~
+      str_glue("{.x}: {format(counts[.x], nsmall=0, big.mark=',')}") %>%
+      str_replace("&", " & ")
+  )
+
+legend(
+  "topright",
+  inset = c(0.25, -0.06),
+  legend = legend_strings,
+  fill = c("#e1be6a", "#40B0A6", "#E66100", "#D5A6BD"),
+  bty = "n",
+  cex = 1,
+  text.font = 1,
+  text.col = "black",
+
+)
+
+# title(
+#   main = "Oregon Autistic Adults and Receiving I/DD",
+#   family = "Helvetica",
+#   font.main = 2,
+#   cex.main = 2,
+#   line = 2
+# )
+
+```
+
+
+```{r}
+library(VennDiagram)
+# Define the counts
+counts <- c(
+  "Adults" = 3407770,
+  "Autistic" = 75993,
+  "Receiving I/DD" = 22755,
+  "Adults&Autistic" = 75993,
+  "Adults&Receiving I/DD" = 22755,
+  "Autistic&Receiving I/DD" = 6371,
+  "Adults&Autistic&Receiving I/DD" = 6371
+)
+
+# Create the Venn diagram
+venn.plot <- draw.triple.venn(
+  area1 = counts["Adults"],
+  area2 = counts["Autistic"],
+  area3 = counts["Receiving I/DD"],
+  n12 = counts["Adults&Autistic"],
+  n23 = counts["Autistic&Receiving I/DD"],
+  n13 = counts["Adults&Receiving I/DD"],
+  n123 = counts["Adults&Autistic&Receiving I/DD"],
+  category = c("Adults", "Autistic", "Receiving I/DD"),
+  fill = c("#FFDDC1", "#99DDFF", "#FFCC99"),
+  lty = "blank",
+  cex = 2,
+  cat.cex = 2,
+  cat.col = c("#FF5733", "#33FF57", "#3357FF"),
+  cat.pos = c(-20, 20, 180),
+  cat.dist = c(0.05, 0.05, 0.05)
+)
+grid.draw(venn.plot)
+
+
+```
+
+
+```{r}
+library(ggvenn)
+# Define the counts
+counts <- c(
+  "Adults" = 3407770,
+  "Autistic" = 75993,
+  "Receiving I/DD" = 22755,
+  "Adults&Autistic" = 75993,
+  "Adults&Receiving I/DD" = 22755,
+  "Autistic&Receiving I/DD" = 6371,
+  "Adults&Autistic&Receiving I/DD" = 6371
+)
+
+# Convert counts to a list of sets
+sets <- list(
+  Adults = seq(1, counts["Adults"]),
+  Autistic = seq(1, counts["Autistic"]),
+  Receiving_IDD = seq(1, counts["Receiving I/DD"])
+)
+
+# Create the Venn diagram
+ggvenn(sets, c("Adults", "Autistic", "Receiving_IDD"), fill_color = c("#FFDDC1", "#99DDFF", "#FFCC99"))
+
+```
+
+```{r}
+library(ggVennDiagram)
+# Define the counts
+counts <- c(
+  "Adults" = 3407770,
+  "Autistic" = 75993,
+  "Receiving I/DD" = 22755,
+  "Adults&Autistic" = 75993,
+  "Adults&Receiving I/DD" = 22755,
+  "Autistic&Receiving I/DD" = 6371,
+  "Adults&Autistic&Receiving I/DD" = 6371
+)
+
+# Prepare a list of sets representing each category
+venn_data <- list(
+  Adults = seq_len(counts["Adults"]),
+  Autistic = seq_len(counts["Autistic"]),
+  "Receiving_I/DD" = seq_len(counts["Receiving I/DD"])
+)
+
+# Create the Venn diagram
+ggVennDiagram(venn_data, set_names = names(venn_data)) +
+  scale_fill_gradient(low = "#F4A582", high = "#92C5DE") +
+  theme_void() +
+  theme(legend.position = "none")
+
+
+```
+
+```{r}
+library(venn)
+
+# Define the counts
+counts <- c(
+  "Adults" = 3407770,
+  "Autistic" = 75993,
+  "Receiving I/DD" = 22755,
+  "Adults&Autistic" = 75993,
+  "Adults&Receiving I/DD" = 22755,
+  "Autistic&Receiving I/DD" = 6371,
+  "Adults&Autistic&Receiving I/DD" = 6371
+)
+
+# Create a data frame for the counts
+venn_data <- data.frame(
+  Adults = c(TRUE, TRUE, TRUE, TRUE, FALSE, FALSE, FALSE),
+  Autistic = c(TRUE, TRUE, FALSE, TRUE, TRUE, FALSE, FALSE),
+  Receiving_IDD = c(TRUE, FALSE, TRUE, TRUE, TRUE, TRUE, FALSE),
+  Counts = c(counts["Adults&Autistic&Receiving I/DD"], 
+             counts["Adults&Autistic"] - counts["Adults&Autistic&Receiving I/DD"], 
+             counts["Adults&Receiving I/DD"] - counts["Adults&Autistic&Receiving I/DD"], 
+             counts["Autistic&Receiving I/DD"] - counts["Adults&Autistic&Receiving I/DD"], 
+             counts["Autistic"] - counts["Adults&Autistic"] - counts["Autistic&Receiving I/DD"] + counts["Adults&Autistic&Receiving I/DD"], 
+             counts["Receiving I/DD"] - counts["Adults&Receiving I/DD"] - counts["Autistic&Receiving I/DD"] + counts["Adults&Autistic&Receiving I/DD"], 
+             counts["Adults"] - counts["Adults&Autistic"] - counts["Adults&Receiving I/DD"] + counts["Adults&Autistic&Receiving I/DD"])
+)
+
+# Create the Venn diagram
+venn_obj <- venn(venn_data, z = venn_data$Counts)
+
+# Plot the Venn diagram
+plot(venn_obj)
+
+```
+```{r}
+library(vcd)
+
+# Define the counts
+counts <- c(
+  "Adults" = 3407770,
+  "Autistic" = 75993,
+  "Receiving I/DD" = 22755,
+  "Adults&Autistic" = 75993,
+  "Adults&Receiving I/DD" = 22755,
+  "Autistic&Receiving I/DD" = 6371,
+  "Adults&Autistic&Receiving I/DD" = 6371
+)
+
+# Create a data frame for the mosaic plot
+data <- data.frame(
+  Adults = c("Yes", "Yes", "Yes", "Yes", "No", "No", "No"),
+  Autistic = c("Yes", "Yes", "No", "Yes", "Yes", "No", "No"),
+  Receiving_IDD = c("Yes", "No", "Yes", "Yes", "Yes", "Yes", "No"),
+  Counts = c(
+    counts["Adults&Autistic&Receiving I/DD"], 
+    counts["Adults&Autistic"] - counts["Adults&Autistic&Receiving I/DD"], 
+    counts["Adults&Receiving I/DD"] - counts["Adults&Autistic&Receiving I/DD"], 
+    counts["Autistic&Receiving I/DD"] - counts["Adults&Autistic&Receiving I/DD"], 
+    counts["Autistic"] - counts["Adults&Autistic"] - counts["Autistic&Receiving I/DD"] + counts["Adults&Autistic&Receiving I/DD"], 
+    counts["Receiving I/DD"] - counts["Adults&Receiving I/DD"] - counts["Autistic&Receiving I/DD"] + counts["Adults&Autistic&Receiving I/DD"], 
+    counts["Adults"] - counts["Adults&Autistic"] - counts["Adults&Receiving I/DD"] + counts["Adults&Autistic&Receiving I/DD"]
+  )
+)
+
+# Create a table from the data frame
+data_table <- xtabs(Counts ~ Adults + Autistic + Receiving_IDD, data = data)
+
+# Create the mosaic plot
+mosaic(data_table, shade = TRUE, legend = TRUE)
+```
+
+

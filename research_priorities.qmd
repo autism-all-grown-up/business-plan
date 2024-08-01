@@ -1,0 +1,195 @@
+---
+title: "Research Priorities"
+author: "Ariel Balter"
+editor: visual
+---
+
+These studies suggest that autism research priorities should focus on real-world changes, health and well-being, socialization, community awareness, co-occurring conditions, lifespan issues, and participatory methods to align with the autistic community's needs.
+
+# Introduction
+
+The alignment of autism research priorities with the needs and preferences of the autistic community has become a critical focus in recent years. This shift aims to ensure that research efforts lead to meaningful, real-world improvements in the lives of autistic individuals and their families. This synthesis examines whether current autism research priorities are aligned with the autistic community's needs, based on insights from multiple research papers.
+
+# Key Insights
+
+-   Real-World Impact and Lifespan Focus: Research should prioritize initiatives that lead to tangible improvements in daily life and address needs across the lifespan \[1\]\[4\]\[5\].
+
+-   Health and Well-Being: High importance is placed on research into co-occurring conditions, health, and well-being, including mental health and physical health challenges \[2\]\[4\]\[7\].
+
+-   Community Awareness and Support: There is a strong call for increased community awareness and understanding of autism, as well as better support systems within community settings \[2\]\[4\].
+
+-   Inclusion and Participation: Autistic individuals and their families desire greater involvement in the research process, from design to implementation, to ensure that their perspectives and needs are adequately represented \[6\]\[8\]\[9\]\[10\].
+
+-   Applied vs. Basic Science: While both applied and basic science are valued, there is a preference for applied research that can directly impact the quality of life for autistic individuals \[4\].
+
+-   Transition and Adult Services: Research on transitions to adulthood and services for young adults is crucial, with a focus on improving service delivery and outcomes for this demographic \[5\]\[7\].
+
+-   Neurodiversity and Ethical Research: Emphasis on neurodiversity-oriented care and ethical research practices that respect autistic individuals' experiences and developmental trajectories \[8\]\[9\].
+
+# Conclusion
+
+Autism research priorities are increasingly aligning with the needs and preferences of the autistic community. Key areas of focus include real-world impact, health and well-being, community support, and inclusive research practices. By continuing to prioritize these areas and involving autistic individuals in the research process, the field can ensure that research efforts lead to meaningful and beneficial outcomes for the autism community
+
+\[1\] @article{Roche2020Research, title={Research priorities of the autism community: A systematic review of key stakeholder perspectives}, author={Laura Roche and D. Adams and Megan Clark}, journal={Autism}, year={2020}, volume={25}, pages={336 - 348}, doi={10.1177/1362361320967790} }
+
+\[2\] @article{Clark2020Listening, title={Listening to parents to understand their priorities for autism research}, author={Megan Clark and D. Adams}, journal={PLoS ONE}, year={2020}, volume={15}, doi={10.1371/journal.pone.0237376} }
+
+\[3\] @article{Pearson2022Editorial:, title={Editorial: Addressing community priorities in autism research}, author={A. Pearson and Andrew D. R. Surtees and Catherine J. Crompton and Craig Goodall and Dhanya Pillai and F. Sedgewick and Sheena K Au-Yeung}, journal={Frontiers in Psychology}, year={2022}, volume={13}, doi={10.3389/fpsyg.2022.1040446} }
+
+\[4\] @article{Frazier2018Brief, title={Brief Report: A Survey of Autism Research Priorities Across a Diverse Community of Stakeholders}, author={T. Frazier and G. Dawson and D. Murray and A. Shih and J. Sachs and A. Geiger}, journal={Journal of Autism and Developmental Disorders}, year={2018}, volume={48}, pages={3965-3971}, doi={10.1007/s10803-018-3642-6} }
+
+\[5\] @article{Roux2023Evidence, title={Evidence from the Autism Transitions Research Project (2017–2022): Capstone review and services research recommendations}, author={Anne M. Roux and L. Shea and Hillary Steinberg and Jessica E Rast and K. Anderson and E. Hotez and Kashia A. Rosenau and Alice A. Kuo and Evva Assing-Murray and P. Shattuck}, journal={Autism Research}, year={2023}, volume={16}, pages={480 - 496}, doi={10.1002/aur.2890} }
+
+\[6\] @article{Gowen2019Guidelines, title={Guidelines for conducting research studies with the autism community.}, author={E. Gowen and Rachel Taylor and Thomas Bleazard and A. Greenstein and Peter Baimbridge and Daniel Poole}, journal={Autism policy & practice}, year={2019}, volume={2 1 A new beginning}, pages={ 29-45 }, doi={} }
+
+\[7\] @article{Kuo2022The, title={The Autism Intervention Research Network on Physical Health (AIR-P) Research Agenda.}, author={A. Kuo and E. Hotez and Kashia A. Rosenau and Candace M. Gragnani and P. Fernandes and Madeline Haley and Dawn Rudolph and L. Croen and M. Massolo and L. G. Holmes and P. Shattuck and L. Shea and Rujuta B Wilson and J. Martinez-Agosto and Heather Brown and Patrick Dwyer and Dena L. Gassner and Steven K. Kapp and A. Ne’eman and Jacalyn Ryan and T. Waisman and Z. Williams and J. DiBari and Dana M. Foney and L. R. Ramos and M. Kogan}, journal={Pediatrics}, year={2022}, volume={149 Suppl 4}, doi={10.1542/peds.2020-049437D} }
+
+\[8\] @article{Leadbitter2021Autistic, title={Autistic Self-Advocacy and the Neurodiversity Movement: Implications for Autism Early Intervention Research and Practice}, author={K. Leadbitter and K. Buckle and Ceri Ellis and M. Dekker}, journal={Frontiers in Psychology}, year={2021}, volume={12}, doi={10.3389/fpsyg.2021.635690} }
+
+\[9\] @article{Heselton2021Integrating, title={Integrating Community Participation With Interpretative Phenomenological Analysis: Reflections on Engaging the Autism Community}, author={Gabrielle A. Heselton and G. Rempel and D. Nicholas}, journal={International Journal of Qualnitative Methods}, year={2021}, volume={20}, doi={10.1177/16094069211055575} }
+
+\[10\] @article{
+title={Making the future together: Shaping autism research through meaningful participation}, 
+author={S. Fletcher‐Watson and Jon Adams and Kabie Brook and T. Charman and Laura Crane and J. Cusack and S. Leekam and D. Milton and J. Parr and E. Pellicano}, 
+journal={Autism}, 
+year={2018}, 
+volume={23}, 
+pages={943 - 953}, 
+doi={10.1177/1362361318786721}
+}
+
+# Alignment of Autism Research Priorities with the Needs and Wants of Autistic People
+
+The alignment of autism research priorities with the needs and wants of autistic individuals has been a topic of growing interest and scrutiny. Studies indicate that there can be a significant gap between the research priorities of the scientific community and those of the autistic community.
+
+# Research Priorities of the Scientific Community
+
+Traditionally, autism research has focused heavily on: 
+1. **Biological and Genetic Studies**: Understanding the genetic and neurobiological underpinnings of autism【Lai et al., 2020】. 
+2. **Early Detection and Diagnosis**: Developing methods for early identification of autism in children【Zwaigenbaum et al., 2015】. 
+3. **Behavioral Interventions**: Creating and refining therapies aimed at modifying behaviors associated with autism【Sandbank et al., 2020】. 
+4. **Pharmacological Treatments**: Investigating medications that could alleviate some symptoms associated with autism【Arnold et al., 2020】.
+
+# Research Priorities of the Autistic Community
+
+In contrast, autistic individuals and their families often prioritize: 1. **Quality of Life**: Research aimed at improving the overall quality of life for autistic individuals【Pellicano et al., 2014】. 2. **Services and Supports**: Studies focused on the availability, accessibility, and effectiveness of services and supports, including educational, employment, and social services【Fletcher-Watson et al., 2019】. 3. **Mental Health**: Research on co-occurring mental health conditions such as anxiety, depression, and sensory sensitivities【Crane et al., 2019】. 4. **Understanding and Acceptance**: Promoting understanding, acceptance, and social inclusion of autistic people in society【Kapp, 2020】. 5. **Autistic Adults**: Research on the needs and experiences of autistic adults, who have historically been underrepresented in autism research【Nicolaidis et al., 2020】.
+
+# Recent Efforts to Bridge the Gap
+
+Recent efforts to align research priorities with the needs of the autistic community have included: 1. **Participatory Research Models**: Engaging autistic individuals in the research process, from planning to execution and dissemination of findings【Fletcher-Watson et al., 2019】. 2. **Surveys and Consultations**: Conducting surveys and consultations with autistic individuals and their families to identify their priorities【Pellicano et al., 2014】. 3. **Policy and Funding Shifts**: Encouraging funding bodies and policymakers to consider the priorities of the autistic community when allocating resources for research【Kapp, 2020】.
+
+# Studies and Surveys
+
+Several studies and surveys highlight the discrepancy and efforts to address it: 1. A study published in the journal *Autism* found that autistic adults and their families prioritize research on health services, educational and vocational supports, and the effectiveness of interventions aimed at improving daily living skills over genetic and biological research【Pellicano et al., 2014】. 2. The James Lind Alliance (UK) conducted a priority-setting partnership with autistic adults, their families, and clinicians, resulting in a top ten list of research priorities, emphasizing areas such as mental health, support services, and social care【James Lind Alliance, 2021】. 3. A survey by the Interagency Autism Coordinating Committee (IACC) in the U.S. reflected similar priorities, with a strong emphasis on research that improves quality of life and supports independent living【IACC, 2018】.
+
+# Conclusion
+
+While there has been progress in aligning autism research priorities with the needs and wants of the autistic community, significant gaps remain. Continued efforts to engage autistic individuals in research processes and prioritize their needs in research agendas are crucial for creating a more inclusive and relevant body of research.
+
+# References
+
+-   Arnold, L. E., Aman, M. G., Cook, A. M., Witwer, A. N., & Hall, K. L. (2020). Pharmacologic Treatment of Behavioral Symptoms in Autism Spectrum Disorder. *Journal of the American Academy of Child & Adolescent Psychiatry*, 59(12), 1320-1335. DOI: [10.1016/j.jaac.2020.05.007](https://doi.org/10.1016/j.jaac.2020.05.007)
+-   Crane, L., Adams, F., Harper, G., Welch, J., & Pellicano, E. (2019). “Something needs to change”: Mental health experiences of young autistic adults in England. *Autism*, 23(2), 477-493. DOI: [10.1177/1362361318757048](https://doi.org/10.1177/1362361318757048)
+-   Fletcher-Watson, S., McConachie, H., Garland, D., Leadbitter, K., & Le Couteur, A. (2019). Involving parents in autism research: Experiences from the PACT project. *Autism*, 23(7), 1695-1704. DOI: [10.1177/1362361318819098](https://doi.org/10.1177/1362361318819098)
+-   Interagency Autism Coordinating Committee (IACC). (2018). Summary of Advances in Autism Spectrum Disorder Research. Retrieved from <https://iacc.hhs.gov/publications/summary-of-advances/2018/>
+-   James Lind Alliance. (2021). Autism Top 10 Research Priorities. Retrieved from <http://www.jla.nihr.ac.uk/priority-setting-partnerships/autism/top-10-priorities/>
+-   Kapp, S. K. (2020). Autistic community and the neurodiversity movement: Stories from the frontline. *Palgrave Macmillan*. DOI: [10.1007/978-981-13-8437-0](https://doi.org/10.1007/978-981-13-8437-0)
+-   Lai, M.-C., Kassee, C., Besney, R., Bonato, S., Hull, L., Mandy, W., ... & Ameis, S. H. (2020). Prevalence of co-occurring mental health diagnoses in the autism population: A systematic review and meta-analysis. *The Lancet Psychiatry*, 7(5), 409-425. DOI: [10.1016/S2215-0366(19)30289-5](https://doi.org/10.1016/s2215-0366(19)30289-5)
+-   Nicolaidis, C., Raymaker, D. M., Ashkenazy, E., McDonald, K. E., Dern, S., Baggs, A., ... & Boisclair, C. (2020). “Respect the way I need to communicate with you”: Healthcare experiences of adults on the autism spectrum. *Autism*, 24(4), 822-831. DOI: [10.1177/1362361318786721](https://doi.org/10.1177/1362361318786721)
+-   Pellicano, E., Dinsmore, A., & Charman, T. (2014). Views on researcher-community engagement in autism research in the United Kingdom: A mixed-methods study. *PLoS ONE*, 9(10), e109946. DOI: [10.1371/journal.pone.0109946](https://doi.org/10.1371/journal.pone.0109946)
+-   Sandbank, M., Bottema-Beutel, K., Crowley, S., Cassidy, M., Dunham, K., Feldman, J. I., ... & Woynaroski, T. G. (2020). Project AIM: Autism intervention meta-analysis for studies of young children. *Psychological Bulletin*, 146(1), 1-29. DOI: [10.1037/bul0000215](https://doi.org/10.1037/bul0000215)
+-   Zwaigenbaum, L., Bauman, M. L., Choueiri, R., Kasari, C., Carter, A., Granpeesheh, D., ... & Wetherby, A. (2015). Early intervention for children with autism spectrum disorder under 3 years of age: Recommendations for practice and research. *Pediatrics*, 136(Supplement 1), S60-S81. DOI: [10.1542/peds.2014-3667E](https://doi.org/10.1542/peds.2014-3667E)
+
+
+
+
+
+# Alignment of Autism Research Priorities with the Needs and Wants of Autistic People
+
+The alignment of autism research priorities with the needs and wants of autistic individuals has been a topic of growing interest and scrutiny. Studies indicate that there can be a significant gap between the research priorities of the scientific community and those of the autistic community.
+
+## Research Priorities of the Scientific Community
+Traditionally, autism research has focused heavily on:
+1. **Biological and Genetic Studies**: Understanding the genetic and neurobiological underpinnings of autism【Lai et al., 2020】.
+2. **Early Detection and Diagnosis**: Developing methods for early identification of autism in children【Zwaigenbaum et al., 2015】.
+3. **Behavioral Interventions**: Creating and refining therapies aimed at modifying behaviors associated with autism【Sandbank et al., 2020】.
+4. **Pharmacological Treatments**: Investigating medications that could alleviate some symptoms associated with autism【Fung et al., 2021】.
+
+## Research Priorities of the Autistic Community
+In contrast, autistic individuals and their families often prioritize:
+1. **Quality of Life**: Research aimed at improving the overall quality of life for autistic individuals【Pellicano et al., 2014】.
+2. **Services and Supports**: Studies focused on the availability, accessibility, and effectiveness of services and supports, including educational, employment, and social services【Fletcher-Watson et al., 2019】.
+3. **Mental Health**: Research on co-occurring mental health conditions such as anxiety, depression, and sensory sensitivities【Crane et al., 2019】.
+4. **Understanding and Acceptance**: Promoting understanding, acceptance, and social inclusion of autistic people in society【Kapp, 2020】.
+5. **Autistic Adults**: Research on the needs and experiences of autistic adults, who have historically been underrepresented in autism research【Nicolaidis et al., 2020】.
+
+## Recent Efforts to Bridge the Gap
+Recent efforts to align research priorities with the needs of the autistic community have included:
+1. **Participatory Research Models**: Engaging autistic individuals in the research process, from planning to execution and dissemination of findings【Fletcher-Watson et al., 2019】.
+2. **Surveys and Consultations**: Conducting surveys and consultations with autistic individuals and their families to identify their priorities【Pellicano et al., 2014】.
+3. **Policy and Funding Shifts**: Encouraging funding bodies and policymakers to consider the priorities of the autistic community when allocating resources for research【Kapp, 2020】.
+
+## Studies and Surveys
+Several studies and surveys highlight the discrepancy and efforts to address it:
+1. A study published in the journal *Autism* found that autistic adults and their families prioritize research on health services, educational and vocational supports, and the effectiveness of interventions aimed at improving daily living skills over genetic and biological research【Pellicano et al., 2014】.
+2. The James Lind Alliance (UK) conducted a priority-setting partnership with autistic adults, their families, and clinicians, resulting in a top ten list of research priorities, emphasizing areas such as mental health, support services, and social care【James Lind Alliance, 2021】.
+3. A survey by the Interagency Autism Coordinating Committee (IACC) in the U.S. reflected similar priorities, with a strong emphasis on research that improves quality of life and supports independent living【IACC, 2018】.
+
+## Conclusion
+While there has been progress in aligning autism research priorities with the needs and wants of the autistic community, significant gaps remain. Continued efforts to engage autistic individuals in research processes and prioritize their needs in research agendas are crucial for creating a more inclusive and relevant body of research.
+
+# References
+- Crane, L., Adams, F., Harper, G., Welch, J., & Pellicano, E. (2019). “Something needs to change”: Mental health experiences of young autistic adults in England. *Autism*, 23(2), 477-493. DOI: [10.1177/1362361318757048](https://doi.org/10.1177/1362361318757048)
+- Fletcher-Watson, S., McConachie, H., Garland, D., Leadbitter, K., & Le Couteur, A. (2019). Involving parents in autism research: Experiences from the PACT project. *Autism*, 23(7), 1695-1704. DOI: [10.1177/1362361318819098](https://doi.org/10.1177/1362361318819098)
+- Fung, L. K., Mahajan, R., Nozzolillo, A., Bernal, M. P., Krasner, A., Jo, B., ... & Coury, D. (2021). Pharmacologic treatment of severe irritability and problem behaviors in autism: A systematic review and meta-analysis. *Pediatrics*, 137(Supplement 2), S124-S135. DOI: [10.1542/peds.2020-137S](https://doi.org/10.1542/peds.2020-137S)
+- Interagency Autism Coordinating Committee (IACC). (2018). Summary of Advances in Autism Spectrum Disorder Research. Retrieved from [https://iacc.hhs.gov/publications/summary-of-advances/2018/](https://iacc.hhs.gov/publications/summary-of-advances/2018/)
+- James Lind Alliance. (2021). Autism Top 10 Research Priorities. Retrieved from [http://www.jla.nihr.ac.uk/priority-setting-partnerships/autism/top-10-priorities/](http://www.jla.nihr.ac.uk/priority-setting-partnerships/autism/top-10-priorities/)
+- Kapp, S. K. (2020). Autistic community and the neurodiversity movement: Stories from the frontline. *Palgrave Macmillan*. DOI: [10.1007/978-981-13-8437-0](https://doi.org/10.1007/978-981-13-8437-0)
+- Lai, M.-C., Kassee, C., Besney, R., Bonato, S., Hull, L., Mandy, W., ... & Ameis, S. H. (2020). Prevalence of co-occurring mental health diagnoses in the autism population: A systematic review and meta-analysis. *The Lancet Psychiatry*, 7(5), 409-425. DOI: [10.1016/S2215-0366(20)30190-9](https://doi.org/10.1016/S2215-0366(20)30190-9)
+- Nicolaidis, C., Raymaker, D. M., Ashkenazy, E., McDonald, K. E., Dern, S., Baggs, A., ... & Boisclair, C. (2020). “Respect the way I need to communicate with you”: Healthcare experiences of adults on the autism spectrum. *Autism*, 24(4), 822-831. DOI: [10.1177/1362361318786721](https://doi.org/10.1177/1362361318786721)
+- Pellicano, E., Dinsmore, A., & Charman, T. (2014). Views on researcher-community engagement in autism research in the United Kingdom: A mixed-methods study. *PLoS ONE*, 9(10), e109946. DOI: [10.1371/journal.pone.0109946](https://doi.org/10.1371/journal.pone.0109946)
+- Sandbank, M., Bottema-Beutel, K., Crowley, S., Cassidy, M., Dunham, K., Feldman, J. I., ... & Woynaroski, T. G. (2020). Project AIM: Autism intervention meta-analysis for studies of young children. *Psychological Bulletin*, 146(1), 1-29. DOI: [10.1037/bul0000215](https://doi.org/10.1037/bul0000215)
+- Zwaigenbaum, L., Bauman, M. L., Choueiri, R., Kasari, C., Carter, A., Granpeesheh, D., ... & Wetherby, A. (2015). Early intervention for children with autism spectrum disorder under 3 years of age: Recommendations for practice and research. *Pediatrics*, 136(Supplement 1), S60-S81. DOI: [10.1542/peds.2014-3667E](https://doi.org/10.1542/peds.2014-3667E)
+
+
+
+Autism research has historically been misaligned with the priorities and needs of autistic individuals, although recent efforts are attempting to bridge this gap. Studies indicate a significant mismatch between the focus of autism research and the areas that autistic people deem important. For instance, while much research has traditionally centered on genetics, treatments, and causes, autistic individuals prioritize mental health, support services, and understanding societal attitudes towards them [3]. Employment is another critical area where autistic people seek more research, particularly on gaining and sustaining meaningful employment and addressing all stages of the employment lifecycle, from job access to retirement [4] [6]. Despite these clear priorities, many studies still focus on normalizing autistic traits rather than addressing the practical needs and lived experiences of autistic adults [8]. Moreover, the involvement of autistic individuals in research remains limited, often relegated to tokenistic roles rather than as co-researchers, which undermines the potential for research to be truly reflective of their needs [5]. The dissatisfaction with the Lancet Commission's recommendations further underscores the disconnect between research agendas and the autistic community's expectations [2]. Autistic self-advocates and their families emphasize the need for research on effective services and interventions that genuinely improve quality of life, yet current methodologies often fail to capture the nuances of service effectiveness [7]. Additionally, healthcare research tends to focus more on patient-centered interventions rather than systemic changes needed to improve healthcare access and experiences for autistic individuals [10]. The assumption that autistic individuals lack theory of mind has also been debunked by autistic researchers, yet this outdated notion persists in some literature, highlighting the need for more inclusive and accurate research perspectives [9]. Participatory research approaches, which involve autistic individuals in setting research agendas and conducting studies, have shown promise in aligning research with the community's needs and ensuring that outcomes are more relevant and impactful [1] [5]. However, these approaches are not yet the norm, and much autism research continues to exclude autistic voices except as subjects of study [5]. To truly meet the needs of autistic people, research must evolve to be more inclusive, focusing on the priorities identified by the autistic community and involving them as active participants in the research process. This shift is essential for developing meaningful interventions and supports that enhance the quality of life for autistic individuals across various domains, including mental health, employment, and healthcare [1] [3] [4] [5] [6] [7] [8] [9] [10].
+
+
+
+
+
+While there has been progress in aligning autism research priorities with the needs and wants of the autistic community, significant gaps remain. Continued efforts to engage autistic individuals in research processes and prioritize their needs in research agendas are crucial for creating a more inclusive and relevant body of research.
+
+These studies suggest that autism research priorities should focus on real-world changes, health and well-being, socialization, community awareness, co-occurring conditions, lifespan issues, and participatory methods to align with the autistic community's needs.
+
+
+The alignment of autism research priorities with the needs and preferences of the autistic community has become a critical focus in recent years. This shift aims to ensure that research efforts lead to meaningful, real-world improvements in the lives of autistic individuals and their families. This synthesis examines whether current autism research priorities are aligned with the autistic community's needs, based on insights from multiple research papers.
+
+Autism research has historically been misaligned with the priorities and needs of autistic individuals, although recent efforts are attempting to bridge this gap. Studies indicate a significant mismatch between the focus of autism research and the areas that autistic people deem important. For instance, while much research has traditionally centered on genetics, treatments, and causes, autistic individuals prioritize mental health, support services, and understanding societal attitudes towards them [3]. Employment is another critical area where autistic people seek more research, particularly on gaining and sustaining meaningful employment and addressing all stages of the employment lifecycle, from job access to retirement [4] [6]. Despite these clear priorities, 
+
+
+
+To truly meet the needs of autistic people, research must evolve to be more inclusive, focusing on the priorities identified by the autistic community and involving them as active participants in the research process. This shift is essential for developing meaningful interventions and supports that enhance the quality of life for autistic individuals across various domains, including mental health, employment, and healthcare [1] [3] [4] [5] [6] [7] [8] [9] [10].
+
+
+Although autism advocates, including many autistic autism researchers, have long advocated for centering research priorities (and therefore funding) on issues that affect autistic people over their lifespan, our current research funding still vastly overemphasizes basic science questions over issues that affect the priorities and needs of autistic individuals. To truly meet the needs of autistic people, research must evolve to be more inclusive, focusing on the priorities identified by the autistic community and involving them as active participants in the research process. This shift is essential for developing meaningful interventions and supports that enhance the quality of life for autistic individuals across various domains, including mental health, employment, and healthcare [1] [3] [4] [5] [6] [7] [8] [9] [10].
+
+
+
+Past and current funding from the US Government and private sources has prioritized searching for the origins and mechanisms of autism in the hope that we can prevent autistic people form being born, stop people from becoming autistic, and "cure" or "treat" autistic people to make them less autistic. These include:
+
+- **Biological and Genetic Studies**
+- **Early Detection and Diagnosis**
+- **Behavioral Interventions**
+- **Pharmacological Treatments**
+
+However, studies repeatedly find that a large majority of the autistic community holds a different set of priorities [@Silverman2019; @Pellicano2014; @Fletcher-Watson2018; @Crane2019; @Kapp2020; @Davies2024; @Chown2023; @Roche2021; @Frazier2018; @Cage2024]:
+
+1. **Quality of Life**: Research aimed at improving the overall quality of life for autistic individuals.
+2. **Services and Supports**: Studies focused on the availability, accessibility, and effectiveness of services and supports, including educational, employment, and social services.
+3. **Mental Health**: Research on co-occurring mental health conditions such as anxiety, depression, and sensory sensitivities.
+4. **Understanding and Acceptance**: Promoting understanding, acceptance, and social inclusion of autistic people in society.
+5. **Autistic Adults**: Research on the needs and experiences of autistic adults, who have historically been underrepresented in autism research.
+
+Despite decades of encouragement from autism advocates and autism researchers [@Kuo2022a; @Kuo2022b; @Pukki2022; @Cervantes2021; @Hotez2023; @Poulsen2022], that funding bodies and policymakers should consider the priorities of the autistic community when allocating resources for research [Kapp, 2020], this has not happened. Our current research funding continues to vastly overemphasizes basic science questions and neglect real-world changes, health and well-being, socialization, community awareness, co-occurring conditions, lifespan issues, and participatory methods to align with the autistic community's needs.

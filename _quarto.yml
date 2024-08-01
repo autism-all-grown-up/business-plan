@@ -16,8 +16,8 @@ book:
     - index.qmd
     - mission.qmd
     - executive_summary.qmd
-    - autism_2024.qmd
     - autism_all_grown_up.qmd
+    - autism_2024.qmd
     - funding.qmd
     - budget.qmd
   appendices:
