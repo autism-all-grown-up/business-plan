@@ -145,7 +145,7 @@ grid.newpage()
 grid.draw(vd)
 ```
 
-```{r}
+```
 N_people = 12
 N_orgs = 5
 
@@ -194,7 +194,7 @@ for (i in 1:N_org_people_connections)
 }
 ```
 
-```{r}
+```
 library(igraph)
 
 items = read_csv("items.csv")
@@ -237,7 +237,7 @@ plot(g,
 
 ```
 
-```{r}
+```
 
 # Create the items table
 items <- tibble(
@@ -271,17 +271,8 @@ plot(g, vertex.shape = node_shapes, vertex.color = node_colors, vertex.size = 20
      vertex.label.cex = 0.8, main = "Network Visualization with Built-in Shapes")
 
 ```
-```{r}
-counts = c(
-  A = 100,
-  B = 20,
-  C = 10,
-  "A&B" = 20,
-  "A&C" = 10,
-  "B&C" = 3,
-  "A&B&C" = 3
-)
 
+```{r}
 N_adults = us_census_or_18_plus
 # N_adults = 1000
 N_autistic = round(N_adults*cdc_pct_autisitc_adults$number/100)
