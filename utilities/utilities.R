@@ -92,3 +92,50 @@ calculateBudgetSummary = function(data, phase, overhead, n_weeks)
   return(budget)
 
 }
+
+
+budget_parameters = list(
+  seed = list(
+    phase = "seed",
+    overhead = 0.1,
+    n_weeks = 8
+  ),
+
+  sprout = list(
+    phase = "sprout",
+    overhead = 0.1,
+    n_weeks = 8
+  ),
+
+  grow = list(
+    phase = "grow",
+    overhead = 0.1,
+    n_weeks = 18
+  )
+)
+
+getWeeklyBudget = function(data, phase, overhead, n_weeks)
+{
+  calculateBudgetSummary(
+      data,
+      phase = phase,
+      overhead = overhead,
+      n_weeks = n_weeks
+    ) %>%
+    mutate(`Weekly Rate` = scales::dollar_format()(`Weekly Rate`)) %>%
+    slice(n()-1) %>% pull(`Weekly Rate`) %>%
+    return()
+}
+
+getTotalBudget = function(data, phase, overhead, n_weeks)
+{
+  calculateBudgetSummary(
+    data,
+    phase = phase,
+    overhead = overhead,
+    n_weeks = n_weeks
+  ) %>%
+    mutate(`Weekly Rate` = scales::dollar_format()(`Weekly Rate`)) %>%
+    slice(n()) %>% pull(`Weekly Rate`) %>%
+    return()
+}
